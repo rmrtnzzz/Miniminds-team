@@ -1,0 +1,17 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --color-primary: #9B8EC4;
+    --color-secondary: #C4B5E8;
+    --color-fondo: #D8D0F0;
+    --color-acento: #F5A623;
+    --color-blanco: #ffffff;
+    --color-texto: #4A4063;
+}
+
+body {
+    background: linear-gradient(135deg, #C4B5E8 0%, #D8D0F0 50%, #E8D5F0 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    color: var(--color-texto);
+}
