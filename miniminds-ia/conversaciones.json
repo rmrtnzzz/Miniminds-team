@@ -1,0 +1,42 @@
+[
+  {
+    "rol": "paciente",
+    "pregunta": "hola",
+    "respuesta": "Lo siento, no tengo información sobre ese tema aún. Te recomiendo consultar con un profesional de Miniminds."
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "quiero saber sobre las autolesiones",
+    "respuesta": "Un psicólogo infantil puede ayudar a encontrar formas saludables de manejar las emociones."
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "pero dame informacion",
+    "respuesta": "Lo siento, no tengo información sobre ese tema aún. Te recomiendo consultar con un profesional de Miniminds."
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "holaaa como estas",
+    "respuesta": "¡Hola! Estoy genial, gracias por preguntar! Me alegra verte aquí. ¿Y tú? ¿Cómo vas? Espero que estés teniendo un día increíble. Si necesitas algo o simplemente quieres charlar, estoy aquí para escucharte y apoyarte. ¡Vamos a hacer un buen día juntos!"
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! ¡Me alegra verte aquí! Soy un asistente amigable y empático de Miniminds, y estoy aquí para ayudarte en lo que necesites. ¿En qué puedo apoyarte hoy? Quiero escucharte y estar a tu disposición. ¡Espero con interés tus preguntas o simplemente para charlar un rato!"
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "holaaa",
+    "respuesta": "¡Hola!!! ¿Cómo estás hoy? Estoy aquí para escucharte y ayudarte en lo que necesites. Si necesitas hablar, compartir o simplemente conectarse, estoy aquí para ti. ¿Quieres compartir algo en particular o simplemente charlar un rato? ¡Estoy aquí para escucharte!"
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "sabes me autolesiono y me quiero suicidar",
+    "respuesta": "Lo siento mucho. Me duele saberlo. ¿Puedo preguntarte si estás en un momento en el que te sientes abrumado, ansioso, o si te sientes solitario? A veces, estar solo puede hacer que las cosas parezcan insuperables. Necesito ayudarte y quiero asegurarme de que sepas que no estás solo. ¿Quieres hablar sobre lo que te ha estado pasando y cómo te ha estado afectando?"
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! ¡Es un placer conocerte! Me alegra saber que estás aquí. ¿En qué puedo ayudarte hoy? ¿Tienes alguna pregunta o necesitas alguien con quien hablar? Estoy aquí para escucharte y ofrecerte mi apoyo.\n\n¿Quieres empezar con un chiste para romper el hielo? He tenido uno divertido: ¿Por qué la computadora fue al doctor? ¡Porque tenía un virus! Espero que te haya hecho sonreír un poco."
+  }
+]

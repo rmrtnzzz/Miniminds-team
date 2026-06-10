@@ -22,3 +22,7 @@ Route::middleware('auth')->group(function () {
     Route::put('/pacientes/{id}', [App\Http\Controllers\PacienteController::class, 'update'])->name('paciente.update');
     Route::delete('/pacientes/{id}', [App\Http\Controllers\PacienteController::class, 'destroy'])->name('paciente.destroy');
 });
+
+// Rutas del chat IA
+Route::get('/chat', [App\Http\Controllers\ChatController::class, 'index'])->name('chat.index');
+Route::post('/chat/enviar', [App\Http\Controllers\ChatController::class, 'enviar'])->name('chat.enviar');
