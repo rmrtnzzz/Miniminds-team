@@ -1,0 +1,26 @@
+.recursos-table { width: 100%; border-collapse: collapse; }
+ .recursos-table th {
+ text-align: left;
+ font-size: 12px;
+ color: #9a8fb8;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ padding: 10px 14px;
+ border-bottom: 1px solid rgba(0,0,0,0.08);
+ }
+ .recursos-table td {
+ padding: 14px;
+ font-size: 14px;
+ color: #4A4063;
+ border-bottom: 1px solid rgba(0,0,0,0.05);
+ }
+ .estado-pill {
+ display: inline-block;
+ padding: 4px 14px;
+ border-radius: 20px;
+ font-size: 12px;
+ font-weight: 600;
+ }
+ .estado-completado { background: #DDF3E4; color: #1F9254; }
+ .estado-pendiente { background: #FCEFD0; color: #B8860B; }
+ .estado-cancelado { background: #FBDDE3; color: #C23A52; }

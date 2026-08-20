@@ -1,0 +1,53 @@
+/* Estilos para la sección "Cerebro 3D", re-insertada antes del footer.
+   Todo queda dentro de .mm-extra-sections para no chocar con el resto
+   del CSS del frontend. La sección de comunidad ya no vive aquí: usa
+   directamente las clases reales .seccion-info/.tarjeta de home.css. */
+
+.mm-extra-sections{
+    --mm-bg:#DDD4F5;
+    --mm-surface:rgba(255,255,255,0.82);
+    --mm-text:#2D2040;
+    --mm-text-light:#6B5A8A;
+    --mm-lila:#9B7FD4;
+    --mm-lila-dark:#6B4FA0;
+    --mm-lila-pale:#EDE8F8;
+    font-family:'Nunito',sans-serif;
+    position:relative;
+    z-index:2;
+    background:var(--mm-bg);
+}
+
+.mm-extra-sections .section-title{
+    font-size:clamp(1.8rem,3vw,2.6rem);font-weight:900;
+    color:var(--mm-text);margin-bottom:12px;text-align:center;
+}
+.mm-extra-sections .section-intro{
+    font-size:1.05rem;color:var(--mm-text-light);
+    max-width:560px;margin:0 auto 40px;line-height:1.7;text-align:center;
+}
+
+.mm-extra-sections .btn-hero-out{
+    padding:14px 32px;border-radius:50px;
+    border:2px solid rgba(107,79,160,0.35);
+    background:var(--mm-surface);color:var(--mm-lila-dark);
+    font-weight:800;font-size:1rem;cursor:pointer;
+    font-family:'Nunito',sans-serif;transition:all .2s;
+    text-decoration:none;display:inline-block;
+}
+.mm-extra-sections .btn-hero-out:hover{background:var(--mm-lila-pale)}
+
+.mm-extra-sections .cerebro3d-section{
+    padding:80px 40px;margin:0 auto;max-width:1200px;
+}
+
+/* La sección de comunidad real ("Lo que dice la comunidad") vive dentro de
+   .mm-extra-sections pero usa las clases .seccion-info/.tarjeta ya definidas
+   en home.css — aquí solo cubrimos el estado vacío, que es nuevo. */
+.mm-extra-sections .mm-feed-empty{
+    text-align:center;color:#fff;opacity:.75;display:none;margin-top:10px;
+    font-family:'Inconsolata',sans-serif;
+}
+
+@media (max-width: 640px){
+    .mm-extra-sections .cerebro3d-section{padding:60px 20px}
+}

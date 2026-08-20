@@ -1,0 +1,14 @@
+.carta {
+ position: relative; background: #fff; border-radius: 14px;
+ padding: 18px 20px 18px 58px; margin-bottom: 14px;
+ box-shadow: 0 3px 12px rgba(0,0,0,0.08); border-left: 6px solid #C4B5E8;
+ }
+ .carta.no-leida { background: #F8F4FE; }
+ .carta .icono { position: absolute; left: 18px; top: 18px; font-size: 24px; }
+ .carta h5 { margin: 0 0 4px; font-size: 15px; font-weight: 700; color: #4A4063; }
+ .carta p { margin: 0; font-size: 13px; color: #6b6280; }
+ .carta .fecha { display: block; margin-top: 8px; font-size: 11px; color: #aaa; }
+ .carta button {
+ border: none; background: #E8DFF5; color: #7C5FBF; font-weight: 700;
+ padding: 4px 12px; border-radius: 999px; font-size: 12px; cursor: pointer; margin-top: 8px;
+ }

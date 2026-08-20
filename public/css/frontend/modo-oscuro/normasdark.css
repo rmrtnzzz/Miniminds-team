@@ -1,0 +1,483 @@
+/* =========================================================
+   MODO OSCURO
+========================================================= */
+
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+
+body.dark {
+text-decoration: none;
+    /* VARIABLES GENERALES */
+    --morado-oscuro: #E8D9F2;
+    --morado: #B99ACB;
+    --morado-suave: #A98DBA;
+
+    --lavanda: #403653;
+    --lavanda-2: #493D5D;
+    --lavanda-3: #5A4D6D;
+
+    --rosa-suave: #4B3442;
+    --rosa-borde: #68495A;
+
+    --blanco: #342D45;
+    --texto: #F3F0FA;
+    --texto-suave: #C8C1D0;
+
+    --borde-suave:
+        rgba(185, 154, 203, .18);
+
+    --sombra-suave:
+        0 12px 30px rgba(0, 0, 0, .20);
+
+    --sombra-hover:
+        0 18px 35px rgba(0, 0, 0, .30);
+}
+
+
+/* =========================================================
+   FONDO GENERAL
+========================================================= */
+
+body.dark {
+    background: #29233D;
+    color: var(--texto);
+}
+
+body.dark.normas{
+    background: transparent;
+}
+
+body.dark.contenedorinfo{
+ background-color: #542e65;
+    margin-top: -65px;
+    border-top-left-radius: 70% 90px;
+    border-top-right-radius: 70% 90px;
+    z-index: 999;
+    overflow: hidden;
+    position: relative;
+}
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+body.dark .intro-normas {
+    background:
+        linear-gradient(
+            to bottom,
+            #403653,
+            #493D5D,
+            #3A3154
+        );
+
+    border-color: rgba(255,255,255,.10);
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.22);
+}
+
+body.dark .intro-normas::before {
+    background: rgba(255,255,255,.07);
+}
+
+body.dark .intro-normas::after {
+    background: rgba(185,154,203,.10);
+}
+
+body.dark .numero-seccion {
+    background: rgba(255,255,255,.10);
+    color: var(--morado);
+}
+
+body.dark .intro-contenido h2 {
+    color: var(--morado-oscuro);
+}
+
+
+/* =========================================================
+   TÍTULOS
+========================================================= */
+
+body.dark .titulo-seccion span {
+    color: var(--morado);
+}
+
+body.dark .titulo-seccion h2 {
+    color: var(--morado-oscuro);
+}
+
+
+/* =========================================================
+   NORMAS PRINCIPALES
+========================================================= */
+
+body.dark .norma-card {
+    background: #342D45;
+    border-color: var(--borde-suave);
+
+    box-shadow:
+        0 12px 30px rgba(0,0,0,.20);
+}
+
+body.dark .norma-card::after {
+    background: #403653;
+}
+
+body.dark .norma-card h3 {
+    color: var(--morado-oscuro);
+}
+
+body.dark .norma-icono {
+    background: #403653;
+}
+
+body.dark .norma-numero {
+    color: var(--morado);
+}
+
+
+/* =========================================================
+   PROTECCIÓN INFANTIL
+========================================================= */
+
+body.dark .proteccion {
+    background:
+        linear-gradient(
+            135deg,
+            #49343F,
+            #403653
+        );
+
+    border-color: rgba(255,255,255,.09);
+
+    box-shadow:
+        0 12px 30px rgba(0,0,0,.20);
+}
+
+body.dark .proteccion::before {
+    background: rgba(255,255,255,.07);
+}
+
+body.dark .proteccion-contenido h2 {
+    color: var(--morado-oscuro);
+}
+
+body.dark .etiqueta {
+    color: var(--morado);
+}
+
+body.dark .proteccion-item {
+    background: rgba(255,255,255,.07);
+}
+
+body.dark .proteccion-item .check {
+    background: var(--morado);
+    color: #29233D;
+}
+
+
+/* =========================================================
+   CONTENIDO PROHIBIDO
+========================================================= */
+
+body.dark .prohibido-card {
+    background: #382E3C;
+    border-color: var(--rosa-borde);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.18);
+}
+
+body.dark .prohibido-icono {
+    background: var(--rosa-suave);
+    color: #D49AAF;
+}
+
+body.dark .prohibido-card h3 {
+    color: #E4B7C8;
+}
+
+
+/* =========================================================
+   COMENTARIOS Y NORMAS
+========================================================= */
+
+body.dark .comentarios-normas::before {
+    background:
+        linear-gradient(
+            to bottom,
+            var(--morado),
+            var(--lavanda-3)
+        );
+}
+
+body.dark .comentarios-reglas {
+    border-top-color: var(--lavanda-3);
+}
+
+body.dark .comentarios-reglas > div {
+    border-bottom-color: var(--lavanda-3);
+}
+
+body.dark .comentarios-reglas > div:hover {
+    background: rgba(64,54,83,.55);
+}
+
+body.dark .comentarios-reglas span {
+    background: var(--lavanda);
+    color: var(--morado);
+}
+
+
+/* =========================================================
+   CITAS Y NORMAS
+========================================================= */
+
+body.dark .citas-grid::before {
+    background:
+        linear-gradient(
+            90deg,
+            var(--lavanda-3),
+            var(--morado),
+            var(--lavanda-3)
+        );
+}
+
+body.dark .cita-card > span {
+    background: #342D45;
+    border-color: var(--lavanda-3);
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,.20);
+}
+
+body.dark .cita-card h3 {
+    color: var(--morado-oscuro);
+}
+
+
+/* =========================================================
+   PRIVACIDAD
+========================================================= */
+
+body.dark .privacidad::before {
+    border-color: var(--lavanda-3);
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(64,54,83,.45),
+            rgba(75,52,66,.40),
+            rgba(64,54,83,.45)
+        );
+}
+
+body.dark .privacidad-icono {
+    background: var(--lavanda-2);
+    color: var(--morado-oscuro);
+}
+
+body.dark .privacidad-card h2 {
+    color: var(--morado-oscuro);
+}
+
+body.dark .privacidad-alerta {
+    border-top-color: var(--lavanda-3);
+}
+
+body.dark .privacidad-alerta strong {
+    color: var(--morado-oscuro);
+}
+
+body.dark .privacidad-alerta li {
+    color: var(--texto-suave);
+}
+
+body.dark .privacidad-alerta li::before {
+    color: var(--morado);
+}
+
+
+/* =========================================================
+   BANEO PERMANENTE
+========================================================= */
+
+body.dark .baneo-permanente {
+    background:
+        linear-gradient(
+            135deg,
+            #49343F,
+            #403653
+        );
+
+    border-color: var(--rosa-borde);
+
+    box-shadow:
+        0 18px 40px rgba(0,0,0,.22);
+}
+
+body.dark .baneo-permanente::before {
+    background: rgba(255,255,255,.07);
+}
+
+body.dark .baneo-contenido > h2 {
+    color: #E4B7C8;
+}
+
+body.dark .baneo-grid {
+    border-top-color: var(--rosa-borde);
+}
+
+body.dark .baneo-item {
+    border-bottom-color: var(--rosa-borde);
+}
+
+body.dark .baneo-item > span {
+    background: #342D45;
+    color: #D49AAF;
+
+    box-shadow:
+        0 4px 10px rgba(0,0,0,.20);
+}
+
+body.dark .baneo-item p {
+    color: #CFC1C9;
+}
+
+body.dark .baneo-nota {
+    border-left-color: #B76A85;
+    background: rgba(255,255,255,.06);
+}
+
+body.dark .baneo-nota strong {
+    color: #E4B7C8;
+}
+
+body.dark .baneo-nota p {
+    color: #CFC1C9;
+}
+
+
+/* =========================================================
+   FUENTES
+========================================================= */
+
+body.dark .fuentes-grid {
+    border-color: var(--lavanda-3);
+}
+
+body.dark .fuente-card {
+    border-color: var(--lavanda-3);
+}
+
+body.dark .fuente-card:hover {
+    background: rgba(64,54,83,.45);
+}
+
+body.dark .fuente-icono {
+    background: var(--lavanda);
+}
+
+body.dark .fuente-card h3 {
+    color: var(--morado-oscuro);
+}
+
+body.dark .fuente-link {
+    color: var(--morado);
+}
+
+body.dark .fuente-link:hover {
+    color: var(--morado-oscuro);
+    border-color: var(--morado);
+}
+
+
+/* =========================================================
+   PROFESIONALES
+========================================================= */
+
+body.dark .profesionales-imagen::before {
+    background:
+        linear-gradient(
+            135deg,
+            var(--lavanda),
+            var(--rosa-suave)
+        );
+}
+
+body.dark .profesionales-contenido h2 {
+    color: var(--morado-oscuro);
+}
+
+body.dark .profesionales-contenido li {
+    border-bottom-color: var(--lavanda-3);
+}
+
+body.dark .profesionales-contenido li:first-child {
+    border-top-color: var(--lavanda-3);
+}
+
+body.dark .profesionales-contenido li::before {
+    color: var(--morado);
+}
+
+
+/* =========================================================
+   REPORTES
+========================================================= */
+
+body.dark .reportes {
+    background: #342D45;
+}
+
+body.dark .reportes-contenido h2 {
+    color: var(--morado-oscuro);
+}
+
+body.dark .boton-principal {
+    background: var(--morado);
+    color: #29233D;
+
+    box-shadow:
+        0 8px 18px rgba(0,0,0,.20);
+}
+
+body.dark .boton-principal:hover {
+    background: var(--morado-oscuro);
+
+    box-shadow:
+        0 12px 22px rgba(0,0,0,.25);
+}
+
+
+/* =========================================================
+   TRANSICIÓN DEL MODO OSCURO
+========================================================= */
+
+body,
+.norma-card,
+.prohibido-card,
+.reportes,
+.privacidad,
+.fuente-card,
+.cita-card > span,
+.proteccion,
+.intro-normas,
+.baneo-permanente {
+    transition:
+        background-color .4s ease,
+        background .4s ease,
+        color .4s ease,
+        border-color .4s ease,
+        box-shadow .4s ease;
+}
+
+html.dark body {
+    background: #29233D !important;
+    color: #F3F0FA !important;
+}
+
+

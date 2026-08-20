@@ -1,0 +1,52 @@
+/* ======================================================================
+   MODO OSCURO — arreglo de contenido sin cobertura propia
+   ----------------------------------------------------------------------
+   homedark.css ya oscurece el navbar, el footer y el fondo general, pero
+   varias páginas de contenido (padres, tda, maestros, tdah, adaptación,
+   padresymaestros, neurodiver) tienen decenas de colores fijos (tarjetas
+   blancas, textos oscuros sobre fondo claro) sin una hoja "dark" propia.
+   En vez de reescribir cada una a mano, se invierte + rota el matiz de
+   todo el bloque de contenido: los blancos pasan a oscuros, los textos
+   oscuros a claros, y las imágenes/íconos se re-invierten para verse
+   normales. Esto da una cobertura real y consistente en todas ellas.
+   ====================================================================== */
+
+/* Páginas con <main class="contenedorinfo">: padres, tda, maestros,
+   tdah, adaptacion, padresymaestros */
+body.dark main.contenedorinfo{
+    background:#F3F0FA;
+    filter: invert(1) hue-rotate(180deg);
+}
+body.dark main.contenedorinfo img,
+body.dark main.contenedorinfo svg,
+body.dark main.contenedorinfo video,
+body.dark main.contenedorinfo picture,
+body.dark main.contenedorinfo iframe{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* neurodiver: su contenido vive dentro de <header>, junto con el navbar
+   (que homedark.css ya oscurece bien) — se invierte el header completo
+   y se re-invierte el navbar y las imágenes para que no les afecte. */
+body.dark header{
+    filter: invert(1) hue-rotate(180deg);
+}
+body.dark header .NAVBARCONTENIDO,
+body.dark header .NAVBARCONTENIDO *,
+body.dark header img,
+body.dark header svg{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* Sección "Explora un cerebro en 3D" + "Lo que dice la comunidad" del
+   home — usa variables propias que no estaban cubiertas por homedark. */
+body.dark .mm-extra-sections{
+    --mm-bg:#211b33;
+    --mm-surface:rgba(255,255,255,0.06);
+    --mm-text:#F3F0FA;
+    --mm-text-light:#C9BFE0;
+    --mm-lila-pale:#3A3154;
+}
+body.dark .mm-extra-sections .btn-hero-out{
+    border-color:rgba(196,181,253,0.35);
+}

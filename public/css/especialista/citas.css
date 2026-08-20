@@ -1,0 +1,15 @@
+.citas-table{width:100%;border-collapse:collapse}
+.citas-table th{text-align:left;font-size:12px;color:#4a7d6f;text-transform:uppercase;letter-spacing:.05em;padding:10px 14px;border-bottom:1px solid rgba(0,0,0,.08)}
+.citas-table td{padding:14px;font-size:14px;border-bottom:1px solid rgba(0,0,0,.05)}
+.estado-pill{display:inline-block;padding:4px 14px;border-radius:20px;font-size:12px;font-weight:600}
+.estado-confirmada{background:#DDF3E4;color:#1F9254}
+.estado-pendiente{background:#FCEFD0;color:#B8860B}
+.estado-cancelada{background:#FBDDE3;color:#C23A52}
+.estado-completada{background:#E0DAF5;color:#5B4B9A}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:1000;align-items:center;justify-content:center}
+.modal-overlay.open{display:flex}
+.modal-box{background:#fff;border-radius:18px;padding:32px;width:100%;max-width:480px;box-shadow:0 8px 40px rgba(0,0,0,.15)}
+.modal-box h4{font-weight:800;margin:0 0 20px;font-size:18px}
+.modal-box label{font-size:12px;font-weight:700;color:#4a7d6f;text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:5px}
+.modal-box select,.modal-box input,.modal-box textarea{width:100%;padding:10px 14px;border:1.5px solid #dbe8e4;border-radius:10px;font-size:14px;margin-bottom:14px;background:#f7fdfb;outline:none;box-sizing:border-box}
+.modal-btns{display:flex;gap:10px;justify-content:flex-end;margin-top:6px}

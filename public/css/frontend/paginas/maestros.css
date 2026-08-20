@@ -1,0 +1,252 @@
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.seccionEspecificaMaestros {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 40px auto 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.tituloSeccionCentral {
+  font-family: 'Fredoka';
+  color: #6E6ACB;
+  font-size: clamp(32px, 4vw, 46px);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.badgeSubtituloSeccion {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #E9C6F6;
+  color: #7A66C5;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-family: 'Fredoka', cursive;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.cuadroIntroAula {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background: #FFFFFF;
+  padding: 45px;
+  border-radius: 36px;
+  box-shadow: 0 10px 30px rgba(110, 106, 203, 0.08);
+  border: 1px solid #F1E8FF;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.textoIntroAula {
+  flex: 1.2;
+  text-align: left;
+}
+
+.textoIntroAula h1 {
+  font-family: 'Fredoka';
+  color: #6E6ACB;
+  font-size: 34px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.textoIntroAula p {
+  font-size: 18px;
+  color: #4a558c;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.imagenIntroAula {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+}
+
+.imagenAulaEscolar {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  border-radius: 24px;
+}
+
+.filasAdaptacionesMaestros {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.bloqueFilaMetodologia {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 28px 32px;
+  border: 1px solid #F1E8FF;
+  box-shadow: 0 8px 20px rgba(110, 106, 203, 0.06);
+  text-align: left;
+}
+
+.cabeceraFila {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.iconoFila {
+  background: #EAE5FF;
+  color: #7A66C5;
+  padding: 6px 16px;
+  border-radius: 12px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bloqueFilaMetodologia h3 {
+  font-family: 'Fredoka', sans-serif;
+  color: #6E6ACB;
+  font-size: 24px;
+  margin: 0;
+}
+
+.bloqueFilaMetodologia p {
+  color: #4a558c;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contenedorDesplegableMaestros {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tarjetaDesplegableAula {
+  background: #FFFFFF;
+  border-radius: 20px;
+  border: 1px solid #F1E8FF;
+  box-shadow: 0 6px 18px rgba(110, 106, 203, 0.05);
+  overflow: hidden;
+}
+
+.botonToggleMaestros {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 20px 25px;
+  text-align: left;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 20px;
+  color: #6E6ACB;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.2s ease;
+}
+
+.botonToggleMaestros:hover {
+  background: #F9F2FC;
+}
+
+.signoDesplegable {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7A66C5;
+}
+
+.contenidoDesplegableAula {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 25px;
+  text-align: left;
+}
+
+.tarjetaDesplegableAula.activo .contenidoDesplegableAula {
+  max-height: 250px;
+  padding: 0 25px 20px 25px;
+}
+
+.tarjetaDesplegableAula.activo .signoDesplegable {
+  transform: rotate(45deg);
+}
+
+.contenidoDesplegableAula ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #4a558c;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.cuadroProtocoloPasos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  width: 100%;
+}
+
+.tarjetaPasoProtocolo {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 20px rgba(110, 106, 203, 0.06);
+  border: 1px solid #F1E8FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.numeroProtocolo {
+  width: 55px;
+  height: 55px;
+  background: #C5E7FF;
+  color: #1C5EEC;
+  border-radius: 50%;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.tarjetaPasoProtocolo h4 {
+  font-family: 'Fredoka', sans-serif;
+  color: #6E6ACB;
+  font-size: 22px;
+  margin: 0 0 10px 0;
+}
+
+.tarjetaPasoProtocolo p {
+  color: #4a558c;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+

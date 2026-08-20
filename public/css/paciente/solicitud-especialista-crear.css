@@ -1,0 +1,14 @@
+.se-form label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#9a8fb8;display:block;margin-bottom:5px}
+.se-form input,.se-form select,.se-form textarea{width:100%;padding:11px 14px;border:1.5px solid #e2d8f5;border-radius:12px;font-size:14px;color:#4A4063;background:#faf8ff;outline:none;margin-bottom:16px}
+.se-form input:focus,.se-form textarea:focus,.se-form select:focus{border-color:#a78bfa}
+.se-section{background:rgba(109,40,217,.06);border:1.5px solid #e2d8f5;border-radius:16px;padding:22px;margin-bottom:20px}
+.se-section h4{font-weight:800;color:#4A4063;margin:0 0 16px;font-size:16px}
+.se-q{margin-bottom:18px}
+.se-q p{font-size:14px;font-weight:600;color:#4A4063;margin-bottom:10px}
+.se-opt{display:flex;align-items:center;gap:10px;padding:10px 14px;border:1.5px solid #e2d8f5;border-radius:10px;margin-bottom:8px;cursor:pointer;font-size:13px;color:#4A4063;transition:all .15s}
+.se-opt:hover{border-color:#a78bfa;background:#f5f0ff}
+.se-opt input[type=radio]{accent-color:#6d28d9}
+.se-opt.selected{border-color:#6d28d9;background:#f0ebff}
+.se-submit{width:100%;padding:15px;border-radius:50px;border:none;background:linear-gradient(135deg,#6d28d9,#a78bfa);color:#fff;font-size:16px;font-weight:800;cursor:pointer;margin-top:8px}
+.se-progress{height:6px;background:#e2d8f5;border-radius:6px;margin-bottom:24px;overflow:hidden}
+.se-progress-fill{height:100%;background:linear-gradient(90deg,#6d28d9,#a78bfa);border-radius:6px;transition:width .3s}

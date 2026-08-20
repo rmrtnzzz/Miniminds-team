@@ -1,0 +1,22 @@
+.agenda-item {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 16px;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+    .agenda-item:last-child { border-bottom: none; }
+    .agenda-fecha {
+        background: #F0EEFF;
+        color: #5c4de8;
+        border-radius: 12px;
+        padding: 10px 14px;
+        text-align: center;
+        flex-shrink: 0;
+        min-width: 62px;
+    }
+    .agenda-fecha .dia { font-size: 20px; font-weight: 800; display: block; }
+    .agenda-fecha .mes { font-size: 11px; text-transform: uppercase; }
+    .agenda-info { flex: 1; }
+    .agenda-info .titulo { font-weight: 700; color: #4A4063; }
+    .agenda-info .sub { font-size: 13px; color: #8b7fa8; }

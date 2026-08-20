@@ -1,0 +1,36 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Profesional;
+use Illuminate\Http\Request;
+
+class ProfesionalController extends Controller
+{
+    public function show()
+    {
+        $profesional = Profesional::where('user_id', auth()->id())->first();
+        return view('especialista.perfil', compact('profesional'));
+    }
+
+    public function edit()
+    {
+        $profesional = Profesional::where('user_id', auth()->id())->first();
+        return view('especialista.perfil_editar', compact('profesional'));
+    }
+
+    public function update(Request $request)
+    {
+        $profesional = Profesional::where('user_id', auth()->id())->first();
+
+        $profesional->update($request->except(['foto', '_token', '_method']));
+
+        if ($request->hasFile('foto')) {
+            $path = $request->file('foto')->store('fotos', 'public');
+            $profesional->update(['foto' => $path]);
+            auth()->user()->update(['foto' => $path]);
+        }
+
+        return redirect()->route('especialista.perfil')->with('success', 'Perfil actualizado correctamente');
+    }
+}

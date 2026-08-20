@@ -1,0 +1,188 @@
+/* ===== PERFIL PACIENTE ===== */
+
+body {
+    background: linear-gradient(135deg, #C4B5E8 0%, #D8D0F0 50%, #E8D5F0 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.perfil-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.perfil-titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4A4063;
+    margin-bottom: 20px;
+}
+
+/* Sidebar tabs */
+.perfil-sidebar {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.perfil-tab {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #4A4063;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.perfil-tab:hover {
+    background: rgba(155, 142, 196, 0.3);
+}
+
+.perfil-tab.activo {
+    background: rgba(155, 142, 196, 0.5);
+    font-weight: bold;
+}
+
+/* Card principal */
+.perfil-card {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.perfil-card h4 {
+    color: #4A4063;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+}
+
+/* Foto de perfil */
+.foto-container {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.foto-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(155, 142, 196, 0.5);
+}
+
+.foto-edit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #9B8EC4;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.miembro-desde {
+    color: #9B8EC4;
+    font-size: 0.85rem;
+}
+
+/* Campos del perfil */
+.campo-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(155, 142, 196, 0.2);
+}
+
+.campo-perfil:last-child {
+    border-bottom: none;
+}
+
+.campo-label {
+    font-weight: bold;
+    color: #4A4063;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.campo-valor {
+    color: #6B5E8C;
+    font-size: 0.9rem;
+}
+
+.campo-edit {
+    color: #9B8EC4;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+}
+
+.campo-edit:hover {
+    color: #4A4063;
+}
+
+/* Botón guardar */
+.btn-guardar {
+    background: #F5A623;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+.btn-guardar:hover {
+    background: #e09520;
+    transform: translateY(-1px);
+}
+
+/* Añadir paciente */
+.btn-agregar-paciente {
+    color: #9B8EC4;
+    font-size: 0.85rem;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.btn-agregar-paciente:hover {
+    color: #4A4063;
+}
+
+/* Navbar lateral */
+.sidebar-nav {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    padding: 15px 0;
+}
+
+.sidebar-nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #4A4063;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a.activo {
+    background: rgba(155, 142, 196, 0.3);
+    color: #4A4063;
+}

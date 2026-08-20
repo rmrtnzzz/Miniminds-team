@@ -1,0 +1,569 @@
+
+/*modo oscuro*/
+
+body{ 
+    transition:
+        background-color .60s ease,
+        color .60s ease,
+        border-color .60s ease,
+        box-shadow .60s ease;
+}
+
+
+
+body.dark{
+    background:#29233D;
+    color:#F3F0FA;
+    transition:.3s;
+}
+
+body.dark .contenedorinfo{
+    background:#3A3154;
+}
+
+
+
+
+/*SEC1-------------------------------------*/
+/*SEC1-------------------------------------*/
+/*SEC1-------------------------------------*/
+/*SEC1-------------------------------------*/
+
+
+body.dark .about-info h2{
+    color:#F7F4FC;
+}
+
+body.dark .about-info p{
+    color:#D8D3E5;
+}
+
+body.dark .about-item span{
+    color:#F4F1FA;
+}
+
+/*SERVICIOS-------------------------------------*/
+/*SERVICIOS-------------------------------------*/
+/*SERVICIOS-------------------------------------*/
+/*SERVICIOS-------------------------------------*/
+/*SERVICIOS-------------------------------------*/
+/*SERVICIOS-------------------------------------*/
+/*SERVICIOS-------------------------------------*/
+
+
+body.dark .explorasecc1{
+    background:#51466F;
+    border-color:#7565A8;
+}
+
+body.dark .explora-info h2{
+    color:white;
+}
+
+body.dark .explora-info p{
+    color:#E8E3F0;
+}
+
+/*TARJETAS-------------------------------------*/
+/*TARJETAS-------------------------------------*/
+/*TARJETAS-------------------------------------*/
+/*TARJETAS-------------------------------------*/
+/*TARJETAS-------------------------------------*/
+
+
+body.dark .padres{
+    background:#667CAF;
+    transition:0.3s ease;
+}
+
+body.dark .padres h3{
+    color:#2D3A63;
+}
+
+
+body.dark .maestros{
+    background:#956FA0;
+    transition:0.3s ease;
+}
+
+body.dark .maestros h3{
+    color:#4B2D58;
+}
+
+
+body.dark .juegos{
+    background:#9A8AB0;
+    transition:0.3s ease;
+}
+
+body.dark .juegos h3{
+    color:#4A3A55;
+}
+
+
+body.dark .explora-card p{
+    color:#ECE8F3;
+}
+
+/*carrusel-------------------------------------*/
+/*carrusel-------------------------------------*/
+/*carrusel-------------------------------------*/
+/*carrusel-------------------------------------*/
+/*carrusel-------------------------------------*/
+
+
+body.dark .carrusel{
+    background:#34304D;
+}
+
+body.dark .slide-texto p{
+    color:#E8E4F0;
+}
+
+/*especialistas-------------------------------------*/
+/*especialistas-------------------------------------*/
+/*especialistas-------------------------------------*/
+/*especialistas-------------------------------------*/
+
+body.dark .tarjeta{
+    background:#39364D;
+}
+
+body.dark .contenido h2{
+    color:white;
+}
+
+body.dark .contenido p{
+    color:#DDD9E7;
+}
+
+
+
+
+
+/*MODO OSCURO - MINIMINDS PERSONAJES----------------------------*/
+/*MODO OSCURO - MINIMINDS PERSONAJES----------------------------*/
+/*MODO OSCURO - MINIMINDS PERSONAJES----------------------------*/
+
+
+/* ==================================================
+   SECCIÓN GENERAL
+================================================== */
+
+body.dark .equipo-miniminds{
+
+    background:#29233D;
+
+    transition:
+        background-color .60s ease,
+        color .60s ease;
+}
+
+
+/* ==================================================
+   ENCABEZADO
+================================================== */
+
+body.dark .etiqueta-equipo{
+
+    background:#51466F;
+
+    color:#C7BCE8;
+
+    transition:
+        background-color .60s ease,
+        color .60s ease;
+}
+
+
+body.dark .equipo-encabezado h1{
+
+    color:#F3F0FA;
+}
+
+
+body.dark .equipo-encabezado p{
+
+    color:#D8D3E5;
+}
+
+
+/* ==================================================
+   TARJETA - FRENTE
+================================================== */
+
+body.dark .personaje-frente{
+
+    background:
+        linear-gradient(
+            145deg,
+            #51466F,
+            #3A3154
+        );
+
+    border:2px solid rgba(139,121,193,.25);
+
+    box-shadow:
+        0 18px 40px rgba(20,16,35,.30);
+
+    transition:
+        background .60s ease,
+        border-color .60s ease,
+        box-shadow .60s ease;
+}
+
+
+/* ==================================================
+   NOMBRE DEL PERSONAJE
+================================================== */
+
+body.dark .personaje-nombre{
+
+    background:rgba(41,35,61,.72);
+
+    border:1px solid rgba(216,211,229,.12);
+
+    backdrop-filter:blur(8px);
+
+    -webkit-backdrop-filter:blur(8px);
+}
+
+
+body.dark .personaje-nombre h2{
+
+    color:#F3F0FA;
+}
+
+
+body.dark .personaje-nombre span{
+
+    color:#BFB2E2;
+}
+
+
+/* ==================================================
+   NUMERO
+================================================== */
+
+body.dark .personaje-numero{
+
+    color:#E5DFF2;
+}
+
+
+/* ==================================================
+   PARTE TRASERA
+================================================== */
+
+
+/* PERSONAJE 1 */
+
+body.dark .personaje-atras.p1{
+
+    background:
+        linear-gradient(
+            145deg,
+            #657DB5,
+            #403A69
+        );
+
+    box-shadow:
+        0 18px 40px rgba(31,26,55,.35);
+}
+
+
+/* PERSONAJE 2 */
+
+body.dark .personaje-atras.p2{
+
+    background:
+        linear-gradient(
+            145deg,
+            #806D93,
+            #4A405B
+        );
+
+    box-shadow:
+        0 18px 40px rgba(31,26,55,.35);
+}
+
+
+/* PERSONAJE 3 */
+
+body.dark .personaje-atras.p3{
+
+    background:
+        linear-gradient(
+            145deg,
+            #c0c698,
+            #27524b
+        );
+
+    box-shadow:
+        0 18px 40px rgba(31,26,55,.35);
+}
+
+
+/* PERSONAJE 4 */
+
+body.dark .personaje-atras.p4{
+
+    background:
+        linear-gradient(
+            145deg,
+            #d67fc1,
+            #60116e
+        );
+
+    box-shadow:
+        0 18px 40px rgba(31,26,55,.35);
+}
+
+
+/* ==================================================
+   FUNCION
+================================================== */
+
+body.dark .personaje-funcion{
+
+    color:#F3F0FA;
+}
+
+
+/* ==================================================
+   TITULO TRASERO
+================================================== */
+
+body.dark .personaje-atras h2{
+
+    color:#FFFFFF;
+}
+
+
+/* ==================================================
+   DESCRIPCION
+================================================== */
+
+body.dark .personaje-atras p{
+
+    color:#EEEAF5;
+}
+
+
+/* ==================================================
+   LINEAS DE CADA PERSONAJE
+================================================== */
+
+
+/* PERSONAJE 1 */
+
+body.dark .personaje-linea.p1{
+
+    background:#9DDCFF;
+}
+
+
+/* PERSONAJE 2 */
+
+body.dark .personaje-linea.p2{
+
+    background:#D8D2E2;
+}
+
+
+/* PERSONAJE 3 */
+
+body.dark .personaje-linea.p3{
+
+    background:#DDE6A0;
+}
+
+
+/* PERSONAJE 4 */
+
+body.dark .personaje-linea.p4{
+
+    background:#F1B9DD;
+}
+
+
+/* ==================================================
+   INDICADOR
+================================================== */
+
+body.dark .volver{
+
+    color:#DDD5F0;
+}
+
+
+
+
+/* COMUNIDAD////////////////////////////////////////////---------- */
+/* COMUNIDAD////////////////////////////////////////////---------- */
+/* COMUNIDAD////////////////////////////////////////////---------- */
+/* COMUNIDAD////////////////////////////////////////////---------- */
+/* SECCIÓN */
+
+body.dark .seccion-info {
+
+    background: linear-gradient(
+        to bottom,
+        #3A3154,
+        #29233D
+    );
+
+    transition:
+        background .60s ease,
+        color .60s ease;
+}
+
+
+/* TITULO */
+
+body.dark .titulo-seccion {
+
+    color: #F3F0FA;
+}
+
+
+/* TEXTO */
+
+body.dark .texto-intro {
+
+    color: #D8D3E5;
+}
+
+
+/* ==================================================
+   TARJETAS MODO OSCURO
+================================================== */
+
+body.dark .tarjeta {
+
+    background: #51466F;
+
+    border: 1px solid rgba(216,211,229,.15);
+
+    box-shadow:
+        0 15px 35px rgba(15,12,25,.30);
+}
+
+
+body.dark .tarjeta:hover {
+
+    background: #65578A;
+
+    box-shadow:
+        0 22px 40px rgba(15,12,25,.40);
+}
+
+
+/* ==================================================
+   DATOS USUARIO
+================================================== */
+
+body.dark .datos-usuario h2 {
+
+    color: #F7F4FC;
+}
+
+
+body.dark .datos-usuario span {
+
+    color: #D8D3E5;
+}
+
+
+/* ==================================================
+   FOTO
+================================================== */
+
+body.dark .foto-usuario {
+
+    border-color: #8B79C1;
+
+    box-shadow:
+        0 4px 14px rgba(15,12,25,.30);
+}
+
+
+/* ==================================================
+   ESTRELLAS
+================================================== */
+
+body.dark .estrellas {
+
+    color: #FFCB70;
+
+    text-shadow:
+        0 2px 6px rgba(30,20,10,.25);
+}
+
+
+/* ==================================================
+   MENSAJE
+================================================== */
+
+body.dark .mensaje {
+
+    color: #ECE8F3;
+}
+
+
+/* ==================================================
+   SCROLLBAR MODO OSCURO
+================================================== */
+
+body.dark .contenedor-tarjetas {
+
+    scrollbar-color: #7565A8 transparent;
+}
+
+
+body.dark .contenedor-tarjetas::-webkit-scrollbar-track {
+
+    background: rgba(255,255,255,.06);
+}
+
+
+body.dark .contenedor-tarjetas::-webkit-scrollbar-thumb {
+
+    background: #7565A8;
+}
+
+
+body.dark .contenedor-tarjetas::-webkit-scrollbar-thumb:hover {
+
+    background: #8B79C1;
+}
+
+
+/* ==================================================
+   BOTÓN MODO OSCURO
+================================================== */
+
+body.dark .boton-abajo {
+
+    border-color: #B8ACE0;
+
+    background: rgba(139,121,193,.12);
+
+    color: #F3F0FA;
+
+    box-shadow:
+        0 8px 20px rgba(15,12,25,.25);
+}
+
+
+body.dark .boton-abajo:hover {
+
+    background: rgba(139,121,193,.28);
+
+    box-shadow:
+        0 12px 25px rgba(15,12,25,.35);
+}
+/* COMUNIDAD////////////////////////////////////////////---------- */
+/* COMUNIDAD////////////////////////////////////////////---------- */
+/* COMUNIDAD////////////////////////////////////////////---------- */
+

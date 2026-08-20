@@ -1,0 +1,8 @@
+.citas-table{width:100%;border-collapse:collapse}
+.citas-table th{text-align:left;font-size:12px;color:#9a8fb8;text-transform:uppercase;letter-spacing:.05em;padding:10px 14px;border-bottom:1px solid rgba(0,0,0,.08)}
+.citas-table td{padding:14px;font-size:14px;color:#4A4063;border-bottom:1px solid rgba(0,0,0,.05)}
+.estado-pill{display:inline-block;padding:4px 14px;border-radius:20px;font-size:12px;font-weight:600}
+.estado-confirmada{background:#DDF3E4;color:#1F9254}
+.estado-pendiente{background:#FCEFD0;color:#B8860B}
+.estado-cancelada{background:#FBDDE3;color:#C23A52}
+.estado-completada{background:#E0DAF5;color:#5B4B9A}

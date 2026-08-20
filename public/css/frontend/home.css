@@ -1,0 +1,1852 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+    html, body {
+    min-height: 100%;
+    margin: 0;
+    }
+
+    a{
+    text-decoration: none;
+    }
+
+    header{
+        position: relative;
+        overflow: hidden;
+    }
+
+    body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #9CB7FB, #E9C6F6, #FCF5FF);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+
+    .contenedorinfo{
+    background-color: #F9F2FC;
+    margin-top: -65px;
+        border-top-left-radius: 70% 90px;
+        border-top-right-radius: 70% 90px;
+        z-index: 999;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+    #titulos{
+    font-family:'Nerko One';
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*MINIMINDS PERSONAJES------------------------------------------*/
+    /*MINIMINDS PERSONAJES------------------------------------------*/
+    /*MINIMINDS PERSONAJES------------------------------------------*/
+
+    .equipo-miniminds {
+
+        width: 100%;
+
+        padding: 100px 6%;
+
+
+        box-sizing: border-box;
+
+        overflow: hidden;
+    }
+
+
+    /* ==================================================
+    ENCABEZADO
+    ================================================== */
+
+    .equipo-encabezado {
+
+        max-width: 750px;
+
+        margin: 0 auto 60px;
+
+        text-align: center;
+    }
+
+
+    .etiqueta-equipo {
+
+        display: inline-block;
+
+        margin-bottom: 12px;
+
+        padding: 7px 16px;
+
+        border-radius: 30px;
+
+        background: #e8e1ff;
+
+        color: #7156d8;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 13px;
+
+        font-weight: bold;
+
+        letter-spacing: 1.5px;
+    }
+
+
+    .equipo-encabezado h1 {
+
+        margin: 0 0 18px;
+
+        color: #3a3a5e;
+
+        font-family: 'Fredoka', sans-serif;
+
+        font-size: clamp(35px, 5vw, 55px);
+
+        line-height: 1.1;
+    }
+
+
+    .equipo-encabezado p {
+
+        max-width: 650px;
+
+        margin: auto;
+
+        color: #77758b;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 17px;
+
+        line-height: 1.7;
+    }
+
+
+    /* ==================================================
+    CONTENEDOR
+    ================================================== */
+
+    .personajes-contenedor {
+
+        width: 100%;
+
+        max-width: 1250px;
+
+        margin: auto;
+
+        display: grid;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 22px;
+    }
+
+
+    /* ==================================================
+    TARJETA
+    ================================================== */
+
+    .personaje-card {
+
+        height: 460px;
+
+        perspective: 1200px;
+
+        cursor: pointer;
+    }
+
+
+    /* Elemento que realmente gira */
+
+    .personaje-card-inner {
+
+        position: relative;
+
+        width: 100%;
+
+        height: 100%;
+
+        transform-style: preserve-3d;
+
+        transition:
+            transform .75s cubic-bezier(.2,.75,.25,1);
+    }
+
+
+    /* Giro */
+
+    .personaje-card:hover .personaje-card-inner {
+
+        transform: rotateY(180deg);
+    }
+
+
+    /* ==================================================
+    FRENTE Y PARTE TRASERA
+    ================================================== */
+
+    .personaje-frente,
+    .personaje-atras {
+
+        position: absolute;
+
+        inset: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        border-radius: 32px;
+
+        box-sizing: border-box;
+
+        overflow: hidden;
+
+        backface-visibility: hidden;
+
+        -webkit-backface-visibility: hidden;
+    }
+
+
+    /* ==================================================
+    FRENTE
+    ================================================== */
+
+    .personaje-frente {
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: space-between;
+
+        padding: 24px;
+
+        background:
+            linear-gradient(
+                145deg,
+                #ffffff,
+                #f1edff
+            );
+
+        border: 2px solid rgba(113, 86, 216, .10);
+
+        box-shadow:
+            0 18px 40px rgba(58, 58, 94, .10);
+    }
+
+
+    /* ==================================================
+    NUMERO
+    ================================================== */
+
+    .personaje-numero {
+
+        position: relative;
+
+        z-index: 3;
+
+        color: #ffffff;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 13px;
+
+        font-weight: bold;
+
+        letter-spacing: 2px;
+    }
+
+
+    /* ==================================================
+    IMAGEN
+    ================================================== */
+
+    .personaje-imagen {
+
+        position: absolute;
+
+        inset: 45px 10px 55px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+    }
+
+
+    .personaje-imagen img {
+
+        width: 100%;
+
+        height: 100%;
+
+        object-fit: contain;
+
+        object-position: center;
+
+        transition:
+            transform .5s ease;
+    }
+
+
+    /* pequeño movimiento antes de girar */
+
+    .personaje-card:hover .personaje-imagen img {
+
+        transform: scale(1.04);
+    }
+
+
+    /* ==================================================
+    NOMBRE DEL PERSONAJE
+    ================================================== */
+
+    .personaje-nombre {
+
+        position: relative;
+
+        z-index: 3;
+
+        margin-top: auto;
+
+        padding: 18px 20px;
+
+        border-radius: 20px;
+
+        background: rgba(255,255,255,.78);
+
+        backdrop-filter: blur(8px);
+
+        -webkit-backdrop-filter: blur(8px);
+    }
+
+
+    .personaje-nombre h2 {
+
+        margin: 0 0 5px;
+
+        color: #3a3a5e;
+
+        font-family: 'Fredoka', sans-serif;
+
+        font-size: 22px;
+    }
+
+
+    .personaje-nombre span {
+
+        color: #7156d8;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 12px;
+
+        font-weight: bold;
+    }
+
+
+    /* ==================================================
+    PARTE TRASERA
+    ================================================== */
+
+    .personaje-atras{
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        padding: 35px;
+
+        color: white;
+
+        transform: rotateY(180deg);
+
+        box-shadow:
+            0 18px 40px rgba(58, 45, 90, .20);
+    }
+
+    .personaje-atras.p1{
+            background:
+            linear-gradient(
+                145deg,
+                #5d8fe6,
+                #211055
+            );
+    }
+
+    .personaje-atras.p2{
+            background:
+            linear-gradient(
+                145deg,
+                #b3a7b7,
+                #332f41
+            );
+    }
+
+
+    .personaje-atras.p3{
+            background:
+            linear-gradient(
+                145deg,
+                #efeba4,
+                #105c3f
+            );
+    }
+
+    .personaje-atras.p4{
+            background:
+            linear-gradient(
+                145deg,
+                #eaa1ce,
+                #7e149b
+            );
+    }
+
+
+    /* ==================================================
+    FUNCION
+    ================================================== */
+
+    .personaje-funcion {
+
+        margin-top: 35px;
+
+        margin-bottom: 12px;
+
+        color: #ffffff;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 11px;
+
+        font-weight: bold;
+
+        letter-spacing: 2px;
+    }
+
+
+    /* ==================================================
+    TITULO TRASERO
+    ================================================== */
+
+    .personaje-atras h2 {
+
+        margin: 0 0 15px;
+
+        color: white;
+
+        font-family: 'Fredoka', sans-serif;
+
+        font-size: 28px;
+
+        line-height: 1.15;
+    }
+
+
+    /* ==================================================
+    DESCRIPCION
+    ================================================== */
+
+    .personaje-atras p {
+
+        margin: 0;
+
+        color: #eeeaf8;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 15px;
+
+        line-height: 1.7;
+    }
+
+
+    /* ==================================================
+    LINEA
+    ================================================== */
+
+    /* ==================================================
+    LINEAS DE CADA PERSONAJE
+    ================================================== */
+
+    .linea-nilo,
+    .linea-kairo,
+    .linea-pipo,
+    .linea-luma {
+
+        width: 45px;
+        height: 3px;
+
+        margin: 25px 0;
+
+        border-radius: 10px;
+
+        flex-shrink: 0;
+    }
+
+
+    .linea-nilo {
+        background: #b8c3ff;
+    }
+
+
+    .linea-kairo {
+        background: #d9dbe6;
+    }
+
+
+    .linea-pipo {
+        background: #fdff8b;
+    }
+
+
+    .linea-luma {
+        background: #ffceec;
+    }
+
+    /* ==================================================
+    INDICADOR
+    ================================================== */
+
+    .volver {
+
+        color: #d9d0ff;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 11px;
+
+        opacity: .85;
+    }
+
+
+    /* ==================================================
+    TABLET
+    ================================================== */
+
+    @media (max-width: 1050px) {
+
+        .personajes-contenedor {
+
+            grid-template-columns: repeat(2, 1fr);
+
+            max-width: 800px;
+        }
+
+    }
+
+
+    /* ==================================================
+    MÓVIL
+    ================================================== */
+
+    @media (max-width: 600px) {
+
+        .equipo-miniminds {
+
+            padding: 70px 20px;
+        }
+
+
+        .equipo-encabezado {
+
+            margin-bottom: 40px;
+        }
+
+
+        .equipo-encabezado p {
+
+            font-size: 15px;
+        }
+
+
+        .personajes-contenedor {
+
+            grid-template-columns: 1fr;
+
+            max-width: 400px;
+
+            gap: 20px;
+        }
+
+
+        .personaje-card {
+
+            height: 420px;
+        }
+
+
+        /*
+        En móvil hacemos que la tarjeta
+        pueda girar mediante click.
+        */
+
+        .personaje-card-inner {
+
+            transition:
+                transform .7s cubic-bezier(.2,.75,.25,1);
+        }
+
+    }
+
+    /*MINIMINDS PERSONAJES------------------------------------------*/
+    /*MINIMINDS PERSONAJES------------------------------------------*/
+    /*MINIMINDS PERSONAJES------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* HEADER-------------------------------------------- */
+    /* HEADER-------------------------------------------- */
+    /* HEADER-------------------------------------------- */
+
+    .LOGO{
+        width: 100%;
+    }
+
+    header{
+
+        position:relative;
+
+        height:100vh;
+
+        background-image:
+        linear-gradient(
+            rgba(0,0,0,.45),
+            rgba(0,0,0,.1)
+        ),
+        url('/public/IMG/tdabanner.jpg');
+
+        background-size:cover;
+        background-position:center;
+        overflow:hidden;
+    }
+
+    .hero-contenido{
+
+        position:absolute;
+
+        left:8%;
+        top:50%;
+
+        transform:translateY(-50%);
+
+        width:min(520px,40vw);
+
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+
+        color:white;
+
+        z-index:2;
+    }
+
+
+    .titulo-hero{
+
+        margin:0;
+
+        font-family:'Fredoka';
+
+        font-size:clamp(100px,5vw,82px);
+
+        line-height:1.05;
+
+        text-align:left;
+
+        text-shadow:0 5px 15px rgba(0,0,0,.25);
+    }
+
+    .descripcion-hero{
+
+        margin:25px 0 35px;
+
+        font-family:'Inconsolata';
+
+        font-size:23px;
+
+        line-height:1.6;
+
+        max-width:480px;
+    }
+
+    .hero-btn{
+        text-decoration:none;
+        background:transparent;
+        border: solid white;
+        color:white;
+        padding:10px 30px;
+        border-radius:999px;
+        font-family:'Fredoka';
+        font-size:20px;
+        transition:.3s;
+    }
+
+    .hero-btn:hover{
+        background-color: rgba(215, 155, 255, 0.523);
+        transform:translateY(-3px);
+
+    }
+
+    .desliza{
+
+        margin-top:90px;
+
+        font-family:'Inconsolata';
+
+        font-size:18px;
+
+        opacity:.8;
+
+        animation:desliza 2s infinite;
+    }
+
+    @keyframes desliza{
+        0%,100%{
+            transform: translateX(150%) translateY(0);
+        }
+
+        50%{
+            transform: translateX(150%) translateY(10px);
+        }
+    }
+
+
+    @media(max-width:900px){
+
+        .hero-contenido{
+
+            left:50%;
+
+            top:50%;
+
+            transform:translate(-50%,-50%);
+
+            width:90%;
+
+            align-items:center;
+
+            text-align:center;
+        }
+
+        .titulo-hero{
+
+            text-align:center;
+        }
+
+        .descripcion-hero{
+
+            text-align:center;
+        }
+    }
+
+    /* HEADER-------------------------------------------- */
+    /* HEADER-------------------------------------------------- */
+    /* HEADER---------------------------------------------- */
+
+
+
+
+
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    .aboutsecc1{
+
+        width:min(1200px,90%);
+        margin:120px auto;
+
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:80px;
+
+    }
+
+    .about-img{
+
+        flex:1;
+        display:flex;
+        justify-content:center;
+    }
+
+    .about-img img{
+
+        width:100%;
+        max-width:520px;
+    }
+
+    .about-info{
+
+        flex:1;
+
+    }
+
+    .about-info h2{
+
+        font-family:'Fredoka';
+
+        font-size:clamp(38px,4vw,60px);
+
+        line-height:1.1;
+
+        color:#4C43A8;
+
+        margin-bottom:25px;
+    }
+
+    .about-info p{
+
+        font-family:'Inconsolata';
+
+        font-size:24px;
+
+        line-height:1.7;
+
+        color:#666A92;
+
+        margin-bottom:40px;
+    }
+
+    .about-caracteristicas{
+
+        display:flex;
+
+        justify-content:space-between;
+
+        gap:30px;
+
+        margin-bottom:45px;
+    }
+
+    .about-item{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+        text-align:center;
+
+        gap:15px;
+
+        flex:1;
+    }
+
+    .about-item img{
+
+        width:65px;
+    }
+
+    .about-item span{
+
+        font-family:'Fredoka';
+
+        color:#4C43A8;
+
+        font-size:20px;
+    }
+
+
+
+
+    /*SECCION 2 -------------------------------------*/ 
+    /*SECCION 2 -------------------------------------*/ 
+    /*SECCION 2 -------------------------------------*/ 
+    /*SECCION 2 -------------------------------------*/ 
+    /*SECCION 2 -------------------------------------*/ 
+    /*SECCION 2 -------------------------------------*/ 
+    .explorasecc1{
+    background: #FFFFFF;
+    border-radius: 36px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(110, 106, 203, 0.08);
+    border: 2px solid #F1E8FF;
+        width:min(1200px,90%);
+        margin:80px auto;
+
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:45px;
+    }
+
+    .explora-info{
+
+        width:300px;
+    }
+
+
+    .explora-info h2{
+
+        margin:10px 0;
+
+        font-family:'Fredoka';
+        font-size:44px;
+        line-height:1.1;
+
+        color:#4C43A8;
+    }
+
+
+    .explora-info p{
+
+        font-family:'Inconsolata';
+        font-size:18px;
+        line-height:1.6;
+
+        margin-bottom:30px;
+    }
+
+    .explora-cards{
+
+        flex:1;
+
+        display:flex;
+
+        gap:30px;
+    }
+
+    .explora-card{
+
+        flex:1;
+
+        position:relative;
+
+        padding:35px 30px;
+
+        border-radius:35px;
+
+        background:white;
+
+        border:2px solid rgba(255,255,255,.7);
+
+        box-shadow:0 20px 35px rgba(0,0,0,.08);
+
+        transition: transform 0.3s ease;
+    }
+
+    .explora-card:hover{
+
+        transform:translateY(-12px);
+    }
+
+    .explora-card img{
+
+        width:150px;
+
+        display:block;
+
+        margin:auto;
+    }
+
+    .explora-card h3{
+
+        margin:25px 0 15px;
+
+        font-family:'Fredoka';
+
+        font-size:32px;
+    }
+
+    .explora-card p{
+
+        font-family:'Inconsolata';
+
+        font-size:21px;
+
+        line-height:1.6;
+
+        color:#666;
+    }
+
+    .explora-card span{
+
+        position:absolute;
+
+        right:25px;
+
+        bottom:25px;
+
+        width:50px;
+
+        height:50px;
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+        border-radius:50%;
+
+        background:white;
+
+        font-size:30px;
+
+        box-shadow:0 10px 20px rgba(0,0,0,.1);
+    }
+
+    .padres{
+
+        background:#dee5fa;
+    }
+
+    .padres:hover{
+            background:#cae1ff;
+
+    }
+
+    .padres h3{
+
+        color:#4860D8;
+    }
+
+    .maestros{
+
+        background:#FFECEF;
+    }
+
+    .maestros:hover{
+        background:#ffd1d7;
+
+    }
+
+
+    .maestros h3{
+
+        color:#D4588A;
+    }
+
+    .juegos{
+
+        background:#FFF5DD;
+    }
+
+    .juegos:hover{
+        background:#ffebc9;
+
+    }
+
+
+    .juegos h3{
+
+        color:#C88A18;
+    }
+
+    @media(max-width:1200px){
+
+        .explorasecc1{
+
+            flex-direction:column;
+
+            text-align:center;
+        }
+
+        .explora-info{
+
+            width:100%;
+        }
+
+        .explora-cards{
+
+            width:100%;
+
+            flex-wrap:wrap;
+
+            justify-content:center;
+        }
+
+        .explora-card{
+
+            min-width:280px;
+
+            max-width:350px;
+        }
+
+    }
+
+    @media(max-width:768px){
+
+        .explora-cards{
+
+            flex-direction:column;
+        }
+
+        .explora-info h2{
+
+            font-size:42px;
+        }
+
+        .explora-info p{
+
+            font-size:19px;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .infohome{
+        min-height:100vh;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        padding:80px 10%;
+    }
+
+    .infohome h1{
+        color:white;
+        font-size:55px;
+        margin-bottom:25px;
+    }
+
+    .descripcion{
+        max-width:700px;
+        color:#5E69A8;
+        font-size:18px;
+        line-height:1.8;
+    }
+
+    .btn-info{
+        margin-top:35px;
+            position: relative;
+        overflow: hidden;
+        border: 2px solid #ffffff;
+        border-radius: 50px;
+    background-color: transparent;
+        color: #ffffff;
+        padding: 15px 35px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .cards{
+        margin-top:70px;
+        display:flex;
+        gap:35px;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .card{
+        width:260px;
+        padding:30px;
+        border-radius:30px;
+        background:rgba(255,255,255,.35);
+        backdrop-filter:blur(10px);
+        border:2px solid rgba(255,255,255,.45);
+        transition:.3s;
+    }
+
+    .card:hover{
+        transform:translateY(-8px);
+    }
+
+    .card img{
+        width: 100px;
+    }
+
+    .card h3{
+        color:white;
+        margin:15px 0;
+    }
+
+    .card p{
+        color:#5E69A8;
+        line-height:1.6;
+    }
+
+
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+    /*SECCION 1 INTRODUCCION*/ 
+
+
+
+
+
+
+
+
+
+    /*CARRUSEL HOMEPAGE*/
+    /*CARRUSEL HOMEPAGE*/
+    /*CARRUSEL HOMEPAGE*/
+    /*CARRUSEL HOMEPAGE*/
+    /*CARRUSEL HOMEPAGE*/
+    /*CARRUSEL HOMEPAGE*/
+    /*CARRUSEL HOMEPAGE*/
+
+    .carrusel{
+        width: 90%;
+        max-width: 1200px;
+        margin: 50px auto;
+
+        background: #e6dfff;
+
+        border-radius: 20px;
+
+        padding: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        position: relative;
+    }
+
+    .slider{
+        width: 100%;
+    }
+    
+    .slide{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .slide.activo{
+        display: flex;
+    }
+
+    .slide-texto{
+        width: 50%;
+        text-align: center;
+    }
+
+    .slide-texto h2{
+        font-family: "Fredoka";
+        color: white;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .slide-texto p{
+        color: #6171b5;
+        font-family: "Inconsolata";
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .slide-imagen{
+        width: 400px;
+        height: 400px;
+    }
+
+    .slide-imagen img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        border-radius: 20px;
+        border: 3px solid white;
+    }
+
+    .btn-slide{
+        margin-top: 25px;
+
+        border: 1px solid #FB85A6;
+        border-radius: 50px;
+
+        background: linear-gradient(
+            to bottom,
+            #FFD4A2,
+            #FFE6C9
+        );
+
+        color: #C35977;
+
+        padding: 12px 35px;
+
+        cursor: pointer;
+            transition: transform 0.2s ease;
+
+    }
+
+    .btn-slide:hover{
+    transform: scale(1.1);
+    }
+
+
+
+
+    .flecha{
+        background: none;
+        border: none;
+
+        font-size: 60px;
+
+        color: #4d5da8;
+
+        cursor: pointer;
+    }
+
+    .indicadores{
+        position: absolute;
+
+        bottom: 20px;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        display: flex;
+        gap: 10px;
+    }
+
+    .indicador{
+        width: 50px;
+        height: 6px;
+
+        border-radius: 10px;
+
+        background: #c7bdd8;
+
+        cursor: pointer;
+    }
+
+    .indicador.activo{
+        background: #8f82bc;
+    }
+
+    .slide{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    .slide.activo{
+        display: flex;
+        animation: aparecerSlide .6s ease forwards;
+    }
+
+    @keyframes aparecerSlide{
+        from{
+            opacity: 0;
+            transform: translateX(40px);
+        }
+
+        to{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*SECCI{ON DE LO QUE DICE LA COOMUNIDAD----------------------------------------*/
+    /*SECCI{ON DE LO QUE DICE LA COOMUNIDAD----------------------------------------*/
+    /*SECCI{ON DE LO QUE DICE LA COOMUNIDAD----------------------------------------*/
+
+
+    .seccion-info {
+        width: 100%;
+        padding: 90px 5% 80px;
+        box-sizing: border-box;
+
+        background: linear-gradient(
+            to bottom,
+            #d0c5f15f,
+            #bbade4
+        );
+
+        overflow: visible;
+
+        transition:
+            background .6s ease,
+            color .6s ease;
+    }
+
+
+    /* ==================================================
+    TITULO
+    ================================================== */
+
+    .titulo-seccion {
+
+        margin: 0;
+
+        text-align: center;
+
+        color: #ffffff;
+
+        font-family: 'Fredoka', sans-serif;
+
+        font-size: clamp(38px, 5vw, 50px);
+
+        line-height: 1.1;
+
+        letter-spacing: .5px;
+    }
+
+
+    /* ==================================================
+    TEXTO INTRODUCTORIO
+    ================================================== */
+
+    .texto-intro {
+
+        max-width: 600px;
+
+        margin: 18px auto 45px;
+
+        text-align: center;
+
+        color: #ffffff;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 17px;
+
+        line-height: 1.6;
+    }
+
+
+    /* ==================================================
+    CONTENEDOR
+    ================================================== */
+
+    .contenedor-tarjetas {
+
+        display: flex;
+
+        gap: 22px;
+
+        width: 100%;
+
+        max-width: 1250px;
+
+        margin: auto;
+
+        padding: 15px 8px 30px;
+
+        overflow-x: auto;
+
+        scroll-behavior: smooth;
+
+        box-sizing: border-box;
+
+        scrollbar-width: thin;
+
+        scrollbar-color: #8d7ab9 transparent;
+    }
+
+
+    /* Scrollbar Chrome / Edge */
+
+    .contenedor-tarjetas::-webkit-scrollbar {
+
+        height: 8px;
+    }
+
+
+    .contenedor-tarjetas::-webkit-scrollbar-track {
+
+        background: rgba(255,255,255,.15);
+
+        border-radius: 20px;
+    }
+
+
+    .contenedor-tarjetas::-webkit-scrollbar-thumb {
+
+        background: #8d7ab9;
+
+        border-radius: 20px;
+    }
+
+
+    .contenedor-tarjetas::-webkit-scrollbar-thumb:hover {
+
+        background: #7565A8;
+    }
+
+
+    /* ==================================================
+    TARJETA
+    ================================================== */
+
+    .tarjeta {
+        position: relative;
+
+        flex: 0 0 350px;
+
+        min-height: 170px;
+
+        padding: 22px;
+
+        box-sizing: border-box;
+
+        background: rgba(154,114,171,.92);
+
+        border: 1px solid rgba(255,255,255,.20);
+
+        border-radius: 24px;
+
+        box-shadow:
+            0 15px 35px rgba(67,46,91,.16);
+
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+
+        transition:
+            transform .5s cubic-bezier(.2,.75,.25,1),
+            background-color .5s ease,
+            box-shadow .5s ease;
+    }
+
+    .tarjeta:hover {
+        transform: translateY(-8px);
+
+        background-color: #694679;
+
+        box-shadow:
+            0 22px 40px rgba(67,46,91,.25);
+    }
+
+    /* ==================================================
+    PARTE SUPERIOR
+    ================================================== */
+
+    .encabezado-tarjeta {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 13px;
+    }
+
+
+    /* ==================================================
+    FOTO
+    ================================================== */
+
+    .foto-usuario {
+
+        width: 48px;
+
+        height: 48px;
+
+        flex-shrink: 0;
+
+        border-radius: 50%;
+
+        object-fit: cover;
+
+        border: 2px solid rgba(255,255,255,.65);
+
+        box-shadow:
+            0 4px 12px rgba(45,31,62,.18);
+    }
+
+
+    /* ==================================================
+    DATOS USUARIO
+    ================================================== */
+
+    .datos-usuario {
+
+        flex: 1;
+
+        min-width: 0;
+    }
+
+
+    .datos-usuario h2 {
+
+        margin: 0;
+
+        color: #ffffff;
+
+        font-family: 'Fredoka', sans-serif;
+
+        font-size: 19px;
+
+        line-height: 1.2;
+    }
+
+
+    .datos-usuario span {
+
+        display: block;
+
+        margin-top: 4px;
+
+        color: #eeeaf5;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 12px;
+    }
+
+
+    /* ==================================================
+    ESTRELLAS
+    ================================================== */
+
+    .estrellas {
+
+        color: #ffbf5e;
+
+        font-size: 17px;
+
+        letter-spacing: 1px;
+
+        white-space: nowrap;
+
+        text-shadow:
+            0 2px 5px rgba(75,45,20,.15);
+    }
+
+
+    /* ==================================================
+    MENSAJE
+    ================================================== */
+
+    .mensaje {
+
+        margin: 20px 0 0;
+
+        color: #523878;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 16px;
+
+        line-height: 1.6;
+    }
+
+
+    /* ==================================================
+    BOTÓN
+    ================================================== */
+
+    .boton-abajo {
+
+        display: block;
+
+        width: fit-content;
+
+        margin: 35px auto 0;
+
+        padding: 13px 30px;
+
+        border: 2px solid rgba(255,255,255,.9);
+
+        border-radius: 30px;
+
+        background: rgba(255,255,255,.08);
+
+        color: #ffffff;
+
+        font-family: 'Inconsolata', sans-serif;
+
+        font-size: 18px;
+
+        font-weight: bold;
+
+        text-decoration: none;
+
+        box-shadow:
+            0 8px 20px rgba(65,43,91,.10);
+
+        transition:
+            transform .3s ease,
+            background-color .3s ease,
+            box-shadow .3s ease;
+    }
+
+
+    .boton-abajo:hover {
+
+        background-color: #4b43a83a;
+
+        transform: translateY(-4px);
+
+        box-shadow:
+            0 12px 25px rgba(65,43,91,.18);
+    }
+
+
+    /*SECCI{ON DE LO QUE DICE LA COOMUNIDAD----------------------------------------*/
+    /*SECCI{ON DE LO QUE DICE LA COOMUNIDAD----------------------------------------*/
+    /*SECCI{ON DE LO QUE DICE LA COOMUNIDAD----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .scroll-reveal {
+        opacity: 0;
+        transform: translateY(35px);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .scroll-reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+

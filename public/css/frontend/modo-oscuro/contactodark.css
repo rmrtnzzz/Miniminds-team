@@ -1,0 +1,199 @@
+/* =========================================================
+   MODO OSCURO
+   NEURO-MINIMINDS!
+   Paleta: morados suaves + azulados + celestes
+========================================================= */
+
+
+/* =========================================================
+   BASE
+========================================================= */
+
+body.dark {
+
+    background:
+        linear-gradient(
+            to bottom,
+            #29233D,
+            #352B4D,
+            #403458
+        );
+
+    color: #F3F0FA;
+}
+
+
+
+
+/* textos generales */
+
+body.dark p {
+    color: #D5CEE3;
+}
+
+body.dark a {
+    color: inherit;
+}
+
+
+
+/* =========================================================
+   CONTACTO
+========================================================= */
+
+body.dark .contact-izquierda h1 {
+    color: #F5F2FB;
+}
+
+body.dark .descripcion {
+    color: #DDD7E9;
+}
+
+
+body.dark .dato-contacto {
+
+    background: rgba(128, 143, 205, .16);
+
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.05);
+}
+
+
+body.dark .dato-contacto p {
+    color: #E4E0ED;
+}
+
+
+/* formulario */
+
+body.dark .contact-derecha {
+
+    background:
+        linear-gradient(
+            145deg,
+            #403752,
+            #352E48
+        );
+
+    box-shadow:
+        0 20px 45px rgba(15, 10, 30, .30);
+}
+
+
+body.dark .campo label {
+    color: #C4C8F0;
+}
+
+
+body.dark .campo input,
+body.dark .campo textarea {
+
+    background: #2F2941;
+
+    color: #EAE6F2;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(174, 164, 220, .12);
+}
+
+
+body.dark .campo input::placeholder,
+body.dark .campo textarea::placeholder {
+    color: #8F899E;
+}
+
+
+body.dark .campo input:focus,
+body.dark .campo textarea:focus {
+
+    box-shadow:
+        0 0 0 3px rgba(143, 168, 255, .30);
+}
+
+
+/* botón enviar */
+
+body.dark .enviar {
+
+    background:
+        linear-gradient(
+            135deg,
+            #8198EA,
+            #7463A8
+        );
+
+    color: #FFFFFF;
+}
+
+
+body.dark .enviar:hover {
+
+    background:
+        linear-gradient(
+            135deg,
+            #91A6F2,
+            #806FB4
+        );
+
+    box-shadow:
+        0 12px 25px rgba(105, 91, 160, .35);
+}
+
+
+/*FOOTER-------------------------------------*/
+/*FOOTER-------------------------------------*/
+/*FOOTER-------------------------------------*/
+/*FOOTER-------------------------------------*/
+body.dark footer{
+    background:linear-gradient(
+        to bottom,
+        #382B4D5F,
+        #75618D
+    );
+}
+
+body.dark footer h1{
+    color:#FFFFFF;
+}
+
+body.dark footer a,
+body.dark footer p{
+    color:#E4DEED;
+}
+
+
+body.dark .linea-vertical {
+    background: #7E8DD1;
+}
+
+
+body.dark .sociales {
+    background: #6978C4;
+}
+
+
+body.dark .sociales:hover {
+    background: #8290D8;
+}
+
+
+/* =========================================================
+   NAVBAR CUANDO HACE SCROLL
+========================================================= */
+
+body.dark .NAVBARCONTENIDO.scrolled {
+
+    box-shadow:
+        0 4px 18px rgba(15, 10, 30, .25);
+}
+
+
+/* =========================================================
+   SUPERPOSICIÓN DEL MODAL
+========================================================= */
+
+body.dark .ventana-contenedor {
+
+    background-color:
+        rgba(15, 11, 28, .62);
+}

@@ -1,0 +1,13 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito',sans-serif;background:#0a0018}
+.cb-topbar{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    display:flex;align-items:center;padding:14px 24px;
+    background:rgba(13,0,32,.75);backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(196,181,253,.18);
+}
+.cb-topbar a{
+    color:#e9d5ff;text-decoration:none;font-weight:700;font-size:14px;
+    display:flex;align-items:center;gap:6px;
+}
+.cb-page-wrap{padding-top:52px;height:100vh}

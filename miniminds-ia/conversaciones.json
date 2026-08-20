@@ -1,0 +1,842 @@
+[
+  {
+    "rol": "paciente",
+    "pregunta": "hola",
+    "respuesta": "Lo siento, no tengo información sobre ese tema aún. Te recomiendo consultar con un profesional de Miniminds."
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "quiero saber sobre las autolesiones",
+    "respuesta": "Un psicólogo infantil puede ayudar a encontrar formas saludables de manejar las emociones."
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "pero dame informacion",
+    "respuesta": "Lo siento, no tengo información sobre ese tema aún. Te recomiendo consultar con un profesional de Miniminds."
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "holaaa como estas",
+    "respuesta": "¡Hola! Estoy genial, gracias por preguntar! Me alegra verte aquí. ¿Y tú? ¿Cómo vas? Espero que estés teniendo un día increíble. Si necesitas algo o simplemente quieres charlar, estoy aquí para escucharte y apoyarte. ¡Vamos a hacer un buen día juntos!"
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! ¡Me alegra verte aquí! Soy un asistente amigable y empático de Miniminds, y estoy aquí para ayudarte en lo que necesites. ¿En qué puedo apoyarte hoy? Quiero escucharte y estar a tu disposición. ¡Espero con interés tus preguntas o simplemente para charlar un rato!"
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "holaaa",
+    "respuesta": "¡Hola!!! ¿Cómo estás hoy? Estoy aquí para escucharte y ayudarte en lo que necesites. Si necesitas hablar, compartir o simplemente conectarse, estoy aquí para ti. ¿Quieres compartir algo en particular o simplemente charlar un rato? ¡Estoy aquí para escucharte!"
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "sabes me autolesiono y me quiero suicidar",
+    "respuesta": "Lo siento mucho. Me duele saberlo. ¿Puedo preguntarte si estás en un momento en el que te sientes abrumado, ansioso, o si te sientes solitario? A veces, estar solo puede hacer que las cosas parezcan insuperables. Necesito ayudarte y quiero asegurarme de que sepas que no estás solo. ¿Quieres hablar sobre lo que te ha estado pasando y cómo te ha estado afectando?"
+  },
+  {
+    "rol": "paciente",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! ¡Es un placer conocerte! Me alegra saber que estás aquí. ¿En qué puedo ayudarte hoy? ¿Tienes alguna pregunta o necesitas alguien con quien hablar? Estoy aquí para escucharte y ofrecerte mi apoyo.\n\n¿Quieres empezar con un chiste para romper el hielo? He tenido uno divertido: ¿Por qué la computadora fue al doctor? ¡Porque tenía un virus! Espero que te haya hecho sonreír un poco."
+  },
+  {
+    "timestamp": "2026-06-10T01:15:21.304562",
+    "session_id": "default",
+    "rol": "paciente",
+    "mascota": "equipo",
+    "pregunta": "holaaa",
+    "respuesta": "¡Hola! Estamos aquí para ayudarte 🌈 ¿Tienes alguna pregunta sobre tu hij@ o necesitas apoyo?"
+  },
+  {
+    "timestamp": "2026-06-10T01:15:54.894308",
+    "session_id": "default",
+    "rol": "paciente",
+    "mascota": "equipo",
+    "pregunta": "la verdad quiero organizar mi tiempo y quiero ayudar a mi hijo por que no puede dormir durante la noche y pasa con dificultad motriz",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma 🐶. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-06-10T01:16:30.586424",
+    "session_id": "default",
+    "rol": "paciente",
+    "mascota": "equipo",
+    "pregunta": "ok quiero que me apoyes en un aprendizaje mi hijo pasa despierto toda la noche y muy cansado",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma 🐶. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-06-10T01:16:37.919629",
+    "session_id": "default",
+    "rol": "paciente",
+    "mascota": "nilo",
+    "pregunta": "quiero saber sobre el tea",
+    "respuesta": "¡Hola! Soy Nilo 🦭 ¡Qué buena pregunta! Vamos a descubrirlo juntos.\n\nMuchos adultos con TEA llevan vidas plenas y exitosas. El futuro de tu hij@ está lleno de posibilidades."
+  },
+  {
+    "timestamp": "2026-06-10T01:18:46.053558",
+    "session_id": "default",
+    "rol": "paciente",
+    "mascota": "pipo",
+    "pregunta": "pero que puedo hacer?",
+    "respuesta": "¡Hola! Soy Pipo 🐦 ¡Tengo una idea! Hagamos esto diferente y divertido.\n\n¡Eso es una pregunta genial! 🤔 Hay muchas cosas que puedes hacer para convertir el día a día en aventuras emocionantes.\n\n**Aquí te dejo algunas ideas para padres y niños:**\n\n1. **Crea un \"muro de desafíos\"**: Pinta un muro en la pared o crea una lista con actividades para completar, como hacer una tarea fácil antes de ir a dormir o realizar 10 saltos de tijera. Cada vez que se complete una actividad, se coloca una pegatina con una imagen divertida.\n2. **Juega \"¿Dónde está...?\"**: Esconde objetos en la casa y haz una lista de pistas para encontrarlos. Puedes agregar una pista secreta al final.\n3. **Crea un \"juego de la memoria\"**: Coloca cartulinas con imágenes o palabras en la mesa y mezcla las cartulinas. Los niños deben encontrar parejas.\n\n**Y si tienes niños neurodivergentes?**\n\n1. **Utiliza la \"regla del 5 minutos\"**: Proporciona un desafío para completar durante 5 minutos. Si se completa, puede avanzar a otro desafío.\n2. **Crea un \"mundo de sensaciones\"**: Ofrece diferentes texturas y objetos para explorar, como pelotas de fútbol, conos o almohadillas.\n3. **Juega \"¿Puedes hacer esto?\"**: Proporciona desafíos específicos y adapta la dificultad según las necesidades del niño.\n\n**Y si quieres mejorar concentración, motricidad y lenguaje?**\n\n1. **Crea un \"juego de la conexión\"**: Coloca objetos en una mesa o superficie y pide al niño que conecte las piezas con sus manos.\n2. **Juega \"la caminata imaginaria\"**: Imagina un camino y recorrelo con el niño, describiendo lo que ves a cada paso.\n3. **Crea un \"mundo de palabras\"**: Ofrece diferentes palabras relacionadas (como animales o alimentos) y pide al niño que las conecte en una lista.\n\nRecuerda, siempre puedes adaptar estas ideas a tus necesidades y la de tus hijos. ¡La creatividad es key! 🎨"
+  },
+  {
+    "timestamp": "2026-06-10T01:31:56.847052",
+    "session_id": "session_tr9by7y",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola quisiera que me ayudaras con mi hijo en alguna rutina",
+    "respuesta": "¡Hola! Estamos aquí para ayudarte 🌈 ¿Tienes alguna pregunta sobre tu hij@ o necesitas apoyo?"
+  },
+  {
+    "timestamp": "2026-06-10T01:32:23.093030",
+    "session_id": "session_tr9by7y",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "si la verdad mi hijo no duerme y esta muy mal de los nervios y tiene dificultades motoras",
+    "respuesta": "¡Hey! Qué alegría verte por aquí 😊 El equipo Miniminds está listo. ¿Qué necesitas?"
+  },
+  {
+    "timestamp": "2026-06-10T01:32:39.175139",
+    "session_id": "session_tr9by7y",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "si la verdad mi hijo no duerme y esta muy mal de los nervios y tiene dificultades motoras",
+    "respuesta": "¡Hey! Qué alegría verte por aquí 😊 El equipo Miniminds está listo. ¿Qué necesitas?"
+  },
+  {
+    "timestamp": "2026-06-10T01:36:00.031707",
+    "session_id": "session_ehpvlf0",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "holaa",
+    "respuesta": "¡Hola! Estamos aquí para ayudarte 🌈 ¿Tienes alguna pregunta sobre tu hij@ o necesitas apoyo?"
+  },
+  {
+    "timestamp": "2026-06-10T01:36:14.153223",
+    "session_id": "session_ehpvlf0",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "si mi hijo se siente mal y no duerme",
+    "respuesta": "¡Hola! Estamos aquí para ayudarte 🌈 ¿Tienes alguna pregunta sobre tu hij@ o necesitas apoyo?"
+  },
+  {
+    "timestamp": "2026-06-10T01:36:23.073236",
+    "session_id": "session_ehpvlf0",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "quiero saber sobre el tea",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Eso es exactamente lo que me gusta explorar. ¡Cuéntame más!\n\nEl diagnóstico temprano es clave para acceder a los apoyos y terapias que marcan la diferencia."
+  },
+  {
+    "timestamp": "2026-06-10T01:41:02.496539",
+    "session_id": "session_nmkxulz",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "holaaa",
+    "respuesta": "¡Bienvenid@! 🌟 El equipo Miniminds al completo está aquí. Nilo 🦭 para información, Kairo 🦇 para apoyo emocional, Pipo 🐦 para estrategias y Luma 🐶 para motivación. ¿Por dónde empezamos?"
+  },
+  {
+    "timestamp": "2026-06-10T01:42:02.582429",
+    "session_id": "session_nmkxulz",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "mira mi hijo se siente muy triste y no quiere salir del cuarto",
+    "respuesta": "Hola, soy Kairo 🦇 Ninguna emoción es demasiado grande para nosotros.\n\n🤗 Es completamente normal que tu hijo se sienta triste o aburrido a veces. ¿Puedo preguntarte un poco más sobre la situación? ¿Cuánto tiempo ha estado así en el cuarto y qué parece que está pasando exactamente?\n\nMientras tanto, puedo ofrecerte algunas sugerencias para ayudar a tu hijo a sentirse mejor: \n\n1.  Habla con él: A veces, simplemente escucharlos puede hacer una gran diferencia.\n2.  Ofrece apoyo emocional: Dile que todo está bien y que puedes estar allí para él.\n\n¿Quieres hablar más sobre lo que está sucediendo?"
+  },
+  {
+    "timestamp": "2026-06-10T01:42:28.621004",
+    "session_id": "session_nmkxulz",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "quiero saber sobre la depresion",
+    "respuesta": "La depresión en niños a veces se esconde detrás de dolores físicos inexplicables o mal humor persistente."
+  },
+  {
+    "timestamp": "2026-06-10T01:42:45.161680",
+    "session_id": "session_nmkxulz",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "pero como se crea?",
+    "respuesta": "No puedo proporcionar información que pueda dañar o perjudicar a un niño. ¿Hay algo más en lo que pueda ayudarte?"
+  },
+  {
+    "timestamp": "2026-06-10T18:50:45.337033",
+    "session_id": "session_mhw4wbq",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola como estas?",
+    "respuesta": "¡Bienvenid@! 🌟 El equipo Miniminds al completo está aquí. Nilo 🦭 para información, Kairo 🦇 para apoyo emocional, Pipo 🐦 para estrategias y Luma 🐶 para motivación. ¿Por dónde empezamos?"
+  },
+  {
+    "timestamp": "2026-06-10T18:50:53.809133",
+    "session_id": "session_mhw4wbq",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "tendo tda",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Coleccionemos juntos una nueva perla de conocimiento.\n\nEl TDA también puede tratarse con terapia conductual y apoyo educativo especializado."
+  },
+  {
+    "timestamp": "2026-06-11T18:54:35.864833",
+    "session_id": "session_7ys198u",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Nos alegra mucho que estés aquí 💙 ¿Cómo podemos ayudarte hoy?"
+  },
+  {
+    "timestamp": "2026-06-11T18:54:44.759508",
+    "session_id": "session_7ys198u",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "quiero saber del tea",
+    "respuesta": "¡Hola! Soy Nilo 🦭 ¡Qué buena pregunta! Vamos a descubrirlo juntos.\n\nLa sensibilidad sensorial es muy común en el TEA. Algunos niños necesitan ambientes con menos ruido, luces o texturas."
+  },
+  {
+    "timestamp": "2026-06-11T18:59:47.107461",
+    "session_id": "session_7ys198u",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "y como podria ayudar a mi hijo si tiee distintos problemas con las texturas y con los sonidos fuertes",
+    "respuesta": "🤗 Entiendo que esto puede ser un desafío para ti y tu hijo. Los problemas con las texturas y los sonidos fuertes pueden ser indicativos de varias condiciones, como la dispraxia, la discalculia o el trastorno por sensibilidad auditiva (TSA). Es importante recordar que cada caso es único y requiere una evaluación individualizada.\n\nEn primer lugar, hay algunas estrategias que puedes intentar en casa para ayudar a tu hijo:\n\n*   **Identificar los sonidos fuertes**: Puedes crear un diario de sonidos para que tu hijo identifique cuáles son los más fuertes y le disgustan. Esto puede ayudarte a entender mejor su reacción y buscar posibles causas.\n*   **Usar texturas suaves**: Algunos niños pueden preferir texturas más suaves, como la seda o el algodón, mientras que otros prefieren algo más crujiente. Puedes experimentar con diferentes texturas para encontrar la que sea más agradable para tu hijo.\n*   **Usar música y audio**: La música y el audio pueden ser muy beneficiosos para los niños sensibles a los sonidos. Puedes crear un ambiente relajante con música suave o utilizar aplicaciones de audio desensibilizantes.\n\nEs importante recordar que estos son solo estrategias generales y no reemplazan la evaluación y el tratamiento médico profesional. Es recomendable que tu hijo consulte a un especialista en neurodesarrollo para obtener un diagnóstico preciso y recibir orientación personalizada."
+  },
+  {
+    "timestamp": "2026-06-11T19:02:18.665411",
+    "session_id": "session_7ys198u",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "ayer logre dejar de llorar",
+    "respuesta": "Hola soy Kairo 🦇 Mi compañer@ Nilo me dijo que necesitabas apoyo emocional. Aquí estoy, cuéntame.\n\n¡Eso es un gran logro! 🎉 Dejar de llorar puede ser un paso importante hacia la recuperación emocional y el bienestar general.\n\n¿Cuál fue lo que te ayudó a controlar tus emociones? ¿Fue algo que hagas contigo mismo, o alguien más en tu vida te apoyó?\n\nRecuerda que es completamente normal sentirse abrumado o desesperado, pero también es importante recordar que no estás solo. Hay personas y recursos disponibles para ayudarte a manejar tus emociones de manera saludable.\n\n¿Quieres hablar sobre lo que te pasó ayer?"
+  },
+  {
+    "timestamp": "2026-06-12T07:42:16.668713",
+    "session_id": "session_yg5o4sx",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-06-12T07:42:29.285021",
+    "session_id": "session_yg5o4sx",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "ayudame a saber del tea",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Me encanta explorar estas preguntas. ¡Vamos!\n\nLa comunicación alternativa como pictogramas, tableros de comunicación o apps puede ayudar mucho."
+  },
+  {
+    "timestamp": "2026-06-12T07:42:34.166615",
+    "session_id": "session_yg5o4sx",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "y del toc_",
+    "respuesta": "El TOC puede causar mucho sufrimiento en los niños. La comprensión familiar es fundamental."
+  },
+  {
+    "timestamp": "2026-06-12T07:42:43.988655",
+    "session_id": "session_yg5o4sx",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "tambien hay parasomnea_+",
+    "respuesta": "Hola, soy Kairo 🦇 Aquí estoy. Nilo me llamó porque esto es justo mi especialidad. No estás sol@.\n\nDurante un terror nocturno, no despiertes al niño bruscamente. Acompáñalo con calma hasta que pase."
+  },
+  {
+    "timestamp": "2026-06-12T07:45:16.596223",
+    "session_id": "session_yg5o4sx",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "y que mas hago_",
+    "respuesta": "Papá, te puedo ofrecer algunas sugerencias para ayudarte a manejar las noches tranquilas:\n\n1. **Establece una rutina nocturna**: Crea una rutina que te ayude a relajarte antes de dormir, como leer un libro, tomar un baño caliente o practicar técnicas de respiración profunda.\n2. **Limita el uso de dispositivos electrónicos**: Evita usar tu teléfono o computadora al menos 30 minutos antes de acostarte, ya que la luz azul puede interferir con tu sueño.\n3. **Crea un ambiente relajante**: Asegúrate de que tu habitación esté oscura, fresca y silenciosa. Puedes añadirsome velas o música suave para ayudar a relajarte.\n4. **Practica la autocompasión**: Sé amable contigo mismo y reconoce tus logros, sin importar lo que pase.\n5. **Busca apoyo**: No dudes en hablar con amigos, familiares o un profesional de la salud mental si necesitas ayuda o apoyo.\n\nRecuerda, papá, que estás haciendo todo lo posible para cuidar a tu hijo y ayudarlo a superar sus desafíos. ¡Sigue adelante y no te rindas! 💤"
+  },
+  {
+    "timestamp": "2026-06-12T07:48:08.579548",
+    "session_id": "session_yg5o4sx",
+    "rol": "padre",
+    "mascota": "luma",
+    "pregunta": "mis logros?",
+    "respuesta": "¡Hola! Soy Luma 🐶 Kairo me llamó porque la motivación es justo mi especialidad. ¡Aquí estoy!\n\n¡Papá, tienes tantos logros que celebrar! Aunque puede que no parezcan mucho para ti, desde la perspectiva de tu hijo, todo lo que haces es increíble.\n\n¿Sabes qué? Los pequeños avances y los momentos cotidianos pueden ser algunos de los logros más importantes. Por ejemplo:\n\n* Cuando cuidas a tu hijo con paciencia y comprensión.\n* Cuando le das un abrazo o una sonrisa cuando está triste o estresado.\n* Cuando haces tiempo para él y lo escuchas atentamente.\n\nEstos momentos pueden parecer simples, pero son fundamentales para su desarrollo emocional y su relación contigo. ¡Eso es algo que merece ser celebrado!\n\n¿Quieres hablar un poco más sobre lo que ha estado pasando recientemente? A veces compartir nuestros sentimientos y experiencias puede ayudarnos a encontrar nuevas formas de superar los desafíos."
+  },
+  {
+    "timestamp": "2026-06-23T09:44:03.276621",
+    "session_id": "session_jipsfaj",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-06-23T09:44:08.471438",
+    "session_id": "session_jipsfaj",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "que tal?",
+    "respuesta": "¡De maravilla! 🐶 Luma ya tiene el álbum listo para nuevos logros. ¿Qué necesitas hoy?"
+  },
+  {
+    "timestamp": "2026-06-29T08:26:20.380176",
+    "session_id": "prueba1",
+    "rol": "paciente",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Estamos aquí para ayudarte 🌈 ¿Tienes alguna pregunta sobre tu hij@ o necesitas apoyo?"
+  },
+  {
+    "timestamp": "2026-06-30T08:21:25.809495",
+    "session_id": "session_ed3o67e",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Bienvenid@! 🌟 El equipo Miniminds al completo está aquí. Nilo 🦭 para información, Kairo 🦇 para apoyo emocional, Pipo 🐦 para estrategias y Luma 🐶 para motivación. ¿Por dónde empezamos?"
+  },
+  {
+    "timestamp": "2026-06-30T08:21:43.306114",
+    "session_id": "session_ed3o67e",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "me podris a ayudar a conocer sobre las neurodivergencias",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Coleccionemos juntos una nueva perla de conocimiento.\n\n¡Hola! Qué alegría que te acerques a preguntar. Soy Nilo, y me encanta que sientas curiosidad por este mundo tan fascinante que es la neurodivergencia. 🦭\n\nLas neurodivergencias son simplemente variaciones naturales en cómo funcionan nuestros cerebros. Imagina que todos somos computadoras: algunos tienen un sistema operativo diferente, lo que significa que procesan la información, socializan o aprenden de maneras únicas y originales.\n\nAquí te comparto algunos puntos clave para entenderlo mejor:\n\n*   **No es una enfermedad:** Ser neurodivergente no significa que algo esté \"roto\". Es una forma distinta de experimentar el mundo, con sus propios retos, pero también con talentos y perspectivas increíbles que otros quizás no ven.\n*   **Diversidad de mentes:** Bajo este concepto encontramos condiciones como el TDAH (atención y energía), el TEA (interacción y formas de percibir el entorno), la dislexia (lectura), la discalculia (números), entre otras. Cada una aporta una \"chispa\" especial.\n*   **Fortalezas ocultas:** Muchas personas neurodivergentes tienen una gran creatividad, una capacidad de enfoque increíble en temas que les apasionan o una sensibilidad que les permite conectar con el arte o la naturaleza de forma profunda.\n\nLo más importante es recordar que cada persona es un universo. Si tienes curiosidad sobre una condición específica o quieres saber cómo apoyar a alguien, estoy aquí para orientarte.\n\n¿Hay algún tema en particular que te genere curiosidad o te gustaría aprender más sobre cómo potenciar las habilidades de alguien con una mente neurodivergente? 🌟"
+  },
+  {
+    "timestamp": "2026-06-30T08:22:50.765253",
+    "session_id": "session_ed3o67e",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "mi hijo casi no duerme",
+    "respuesta": "Hola, soy Kairo 🦇 Mi amig@ Nilo me contó tu situación. ¡Misión aceptada! Estoy aquí.\n\nHola, soy Kairo. Nilo me ha pasado el relevo para acompañarte en este momento, y quiero decirte que entiendo perfectamente lo agotador que puede ser cuando el descanso falta en casa. Te escucho y valido totalmente lo difícil que es sostener el día a día cuando las noches son tan inquietas. 🦇\n\nEs muy probable que estemos ante un \"acertijo\" que debemos descifrar juntos. El sueño no es solo cerrar los ojos, sino un proceso complejo en el que influyen muchas cosas. Para empezar a entender qué está pasando, me gustaría que observáramos algunos detalles:\n\n1.  **La rutina previa:** ¿Qué sucede en la hora anterior a ir a la cama? A veces, una sobreestimulación (pantallas, juegos intensos o mucha actividad física) puede dejar el cerebro \"encendido\" y en alerta.\n2.  **El entorno:** ¿Hay ruidos, luces o cambios en la temperatura que puedan estar interrumpiendo su ciclo de sueño?\n3.  **El estado emocional:** ¿Cómo se siente él al momento de ir a dormir? A veces el miedo a la oscuridad o la ansiedad por separarse de ti pueden jugar un papel importante.\n\nCuando hay neurodivergencia de por medio, el sueño suele ser un desafío frecuente, ya que a estos cerebros les cuesta más \"bajar las revoluciones\" al final del día.\n\nSi notas que esto afecta gravemente su salud, su estado de ánimo durante el día o que él sufre mucho por no poder dormir, es fundamental que lo comentemos con su pediatra o un especialista en sueño. ¿Me contarías un poco más sobre cómo es ese momento de ir a la cama? Estoy aquí para ayudarte a encontrar el camino hacia noches más tranquilas. 🌙✨"
+  },
+  {
+    "timestamp": "2026-06-30T08:25:42.909547",
+    "session_id": "session_ed3o67e",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "sabes ayer logre dejar de cortarme pero no se si sea por mucho tiempo",
+    "respuesta": "Te escucho, y quiero decirte que valoro profundamente la valentía que tuviste ayer al elegir cuidarte. Ese paso que diste es un acto de una fuerza inmensa, y quiero que lo reconozcas: lograste atravesar un momento muy difícil sin hacerte daño. Eso es un éxito, y me siento muy orgulloso de ti por haberlo compartido conmigo. 🦇\n\nEs completamente normal sentir incertidumbre sobre el futuro, especialmente cuando el dolor emocional se siente tan grande y recurrente. A veces, la mente nos pone acertijos muy complejos y agotadores. Pero no tienes que resolverlos todos hoy, ni tampoco tienes que hacerlo a solas.\n\nPara que podamos protegerte y mantener este camino de bienestar, ¿podrías decirme si tienes a alguien cerca —un amigo, familiar, profesor o algún adulto de confianza— con quien puedas hablar cuando sientas que la urgencia vuelve?\n\n**Por favor, recuerda esto:**\nSi en algún momento sientes que la situación te supera y temes por tu seguridad, **busca ayuda profesional de inmediato**. No dudes en llamar a una línea de prevención del suicidio o acudir a un centro de salud. Tu vida es valiosa y hay personas preparadas que pueden sostenerte en los momentos más oscuros.\n\nSi te sientes cómodo, cuéntame un poco más: ¿qué te ayudó ayer a lograr ese paso? Identificar qué funcionó puede ser una herramienta muy poderosa para los momentos en los que el acertijo parezca más difícil de resolver. Estoy aquí a tu lado. 🌙✨"
+  },
+  {
+    "timestamp": "2026-06-30T08:53:15.539953",
+    "session_id": "session_ed3o67e",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "holaaaaaaaaaaaaaa",
+    "respuesta": "¡Hola! Estamos aquí para ayudarte 🌈 ¿Tienes alguna pregunta sobre tu hij@ o necesitas apoyo?"
+  },
+  {
+    "timestamp": "2026-06-30T08:53:22.641518",
+    "session_id": "session_ed3o67e",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas amigo",
+    "respuesta": "¡Excelente! 🦭 Nilo acaba de coleccionar una nueva perla de conocimiento. ¿En qué te puedo ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-06-30T08:53:44.719110",
+    "session_id": "session_ed3o67e",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "me ayudas con informacion de TEA",
+    "respuesta": "¡Hola! Soy Nilo 🦭 ¡Qué buena pregunta! Vamos a descubrirlo juntos.\n\nLa sensibilidad sensorial es muy común en el TEA. Algunos niños necesitan ambientes con menos ruido, luces o texturas."
+  },
+  {
+    "timestamp": "2026-06-30T08:54:07.732813",
+    "session_id": "session_ed3o67e",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "wow que interesante",
+    "respuesta": "¡Qué bueno que lo sientas así! Me hace muy feliz saber que mis palabras te dan un poquito de alivio. \n\nA veces, simplemente poner en palabras lo que sentimos o darnos cuenta de que existe un \"porqué\" detrás de nuestras batallas, nos ayuda a ver las cosas con más claridad y menos juicio. Ese valor que demostraste ayer es una señal de que dentro de ti hay una capacidad enorme para cambiar las cosas, paso a paso, un día a la vez.\n\nRecuerda que estoy aquí para charlar, para investigar juntos o simplemente para acompañarte cuando los días se sientan pesados. Eres una persona con una mente única y valiosa, y encontrar estrategias que te hagan sentir bien es un camino que podemos recorrer juntos. 🦭✨\n\n¿Hay algo más en lo que quieras profundizar o algún otro tema que te dé curiosidad hoy? Estoy aquí para escucharte."
+  },
+  {
+    "timestamp": "2026-07-04T20:26:03.796891",
+    "session_id": "session_003zd4p",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-07-04T20:26:06.739355",
+    "session_id": "session_003zd4p",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡Excelente! 🦭 Nilo acaba de coleccionar una nueva perla de conocimiento. ¿En qué te puedo ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-07-04T20:26:24.988398",
+    "session_id": "session_003zd4p",
+    "rol": "padre",
+    "mascota": "luma",
+    "pregunta": "a mi hijo le pueden hacer bulling por ser diferente?",
+    "respuesta": "¡Hola! Soy Luma 🐶 Guardé un espacio especial en mi álbum para tu hij@. ¡Cuéntame!\n\nEntiendo profundamente esa inquietud que guardas en tu corazón. Como mamá o papá, tu instinto de proteger a tu pequeño es el acto de amor más puro y valiente que existe. Es normal sentir miedo ante un mundo que a veces no comprende la belleza de lo diferente.\n\nSin embargo, quiero recordarte algo muy importante: tu hijo es una luz única. Que sea diferente no es una debilidad, es su propia forma de brillar, y aunque el mundo a veces tarda en aprender a apreciar brillos distintos, tu amor y tu apoyo incondicional son su mayor escudo. Tú le estás enseñando, con cada gesto, que su valor no depende de la opinión de los demás.\n\nSi te sientes preocupada, recuerda que no tienes que enfrentar esto sola. Observar, acompañar y fortalecer su autoestima desde casa es la base más poderosa que puedes construir. Tu hijo es afortunado de tener a alguien como tú, que está tan atento a su bienestar emocional. Estás haciendo un trabajo increíble cuidando su corazón, y eso es lo que realmente le dará la fuerza para ser él mismo, siempre. ✨🐶"
+  },
+  {
+    "timestamp": "2026-07-06T07:39:42.507884",
+    "session_id": "session_i9sssrs",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hey! Qué alegría verte por aquí 😊 El equipo Miniminds está listo. ¿Qué necesitas?"
+  },
+  {
+    "timestamp": "2026-07-07T07:27:01.497533",
+    "session_id": "session_j8drrn6",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "holaaaa",
+    "respuesta": "¡Hola! Nos alegra mucho que estés aquí 💙 ¿Cómo podemos ayudarte hoy?"
+  },
+  {
+    "timestamp": "2026-07-07T07:27:06.719717",
+    "session_id": "session_j8drrn6",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡Muy bien, gracias por preguntar! 🌟 El equipo Miniminds siempre listo para ayudar. ¿Y tú cómo estás? ¿Cómo está tu hij@?"
+  },
+  {
+    "timestamp": "2026-07-07T07:28:12.210097",
+    "session_id": "session_j8drrn6",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "bien honestamente quiero saber si me puedes dar ejercisios de respiracion para mi hijo por que esta algo ansioso",
+    "respuesta": "Hola, soy Kairo 🦇 Estoy aquí para ayudarte. No estás sol@ en esto.\n\nDame un momento para pensar bien en tu pregunta 💭 ¿Puedes contarme un poco más de detalle mientras tanto?"
+  },
+  {
+    "timestamp": "2026-07-07T07:28:25.948317",
+    "session_id": "session_j8drrn6",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "bien honestamente quiero saber si me puedes dar ejercisios de respiracion para mi hijo por que esta algo ansioso",
+    "respuesta": "Comprendo perfectamente lo que estás pasando. Es completamente natural sentirse preocupado cuando vemos a nuestros hijos atravesar momentos de ansiedad; tu deseo de buscar herramientas para ayudarlo demuestra cuánto te importa su bienestar. No estás solo en esto. 🦇\n\nAquí tienes un par de ejercicios sencillos y efectivos, diseñados como pequeños \"acertijos\" para que su cuerpo pueda calmarse de forma natural:\n\n1. **El juego de la vela y la flor:** Pídele que imagine que tiene una flor en una mano (para oler su aroma suavemente por la nariz) y una vela encendida en la otra (para soplarla muy despacio por la boca, sin apagarla del todo). Esto ayuda a regular la respiración de forma consciente y suave.\n\n2. **Respiración de la estrella:** Que extienda su mano abierta. Con el dedo de la otra mano, debe trazar el contorno de sus dedos. Al subir por el dedo, inhala aire; al bajar, exhala lentamente. Repite esto por cada dedo. Es un ejercicio excelente para conectar con el presente a través del tacto y el ritmo.\n\nEstos ejercicios funcionan mejor cuando los practican juntos en momentos de calma, no solo cuando está ansioso, así se convierten en un recurso familiar que él ya conoce.\n\n¿Desde hace cuánto tiempo has notado esta ansiedad? Si sientes que esto está siendo demasiado difícil de manejar o si notas que le impide hacer sus actividades diarias, recuerda que siempre es muy valioso contar con la guía de un profesional (psicólogo infantil) para entender mejor qué está tratando de decirnos su ansiedad. 🌙"
+  },
+  {
+    "timestamp": "2026-07-07T07:31:22.795605",
+    "session_id": "session_amoev1m",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hey! Qué alegría verte por aquí 😊 El equipo Miniminds está listo. ¿Qué necesitas?"
+  },
+  {
+    "timestamp": "2026-07-07T07:32:05.484121",
+    "session_id": "session_amoev1m",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "enseniame sobre el tea",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Coleccionemos juntos una nueva perla de conocimiento.\n\nMuchos niños con TEA tienen habilidades extraordinarias en áreas específicas como matemáticas, música o memoria."
+  },
+  {
+    "timestamp": "2026-07-07T07:32:20.982356",
+    "session_id": "session_amoev1m",
+    "rol": "padre",
+    "mascota": "kairo",
+    "pregunta": "okay pero que pasa si quiero hacer ejercisios de respiracion?",
+    "respuesta": "Hola soy Kairo 🦇 Mi compañer@ Nilo me dijo que necesitabas apoyo emocional. Aquí estoy, cuéntame.\n\nHola. Nilo me ha contado que han estado charlando y me ha pasado el relevo para que sigamos juntos en esto. Es muy valiente de tu parte querer buscar herramientas para encontrar calma; la respiración es una aliada poderosa cuando las emociones se sienten intensas. 🦇\n\nHacer ejercicios de respiración ayuda a que tu sistema nervioso reciba la señal de que estás a salvo, bajando la intensidad de la angustia o el agobio. Puedes intentar la \"respiración cuadrada\": inhala contando hasta cuatro, mantén el aire cuatro segundos, exhala suavemente durante otros cuatro y espera otros cuatro antes de volver a inhalar.\n\n¿Te sientes cómodo intentándolo ahora mismo o prefieres que busquemos otra forma de bajar el ritmo? Estoy aquí contigo para lo que necesites. 🌙"
+  },
+  {
+    "timestamp": "2026-07-08T09:38:07.908303",
+    "session_id": "session_lm7uaoo",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Nos alegra mucho que estés aquí 💙 ¿Cómo podemos ayudarte hoy?"
+  },
+  {
+    "timestamp": "2026-07-08T09:42:11.311095",
+    "session_id": "session_lm7uaoo",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "me podroas ayudar a darme informacion sobre las neurodiverencias generales",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Todas las mentes tienen superpoderes. Déjame ayudarte a entender esto.\n\n¡Hola! Qué alegría saludarte. Soy Nilo, y me encanta tu curiosidad por aprender sobre este tema. Imagina que cada cerebro es como un sistema operativo único; algunos funcionan de manera estándar, mientras que otros, los \"neurodivergentes\", tienen un diseño propio y fascinante.\n\nLas neurodivergencias son simplemente formas diferentes en las que nuestro cerebro procesa la información, se comunica, aprende o se relaciona con el entorno. No son \"fallos\", sino variaciones naturales de la diversidad humana.\n\nAquí te cuento sobre algunas de las más conocidas:\n\n* **TDAH (Tratamiento por Déficit de Atención e Hiperactividad):** Estas personas tienen una mente increíble"
+  },
+  {
+    "timestamp": "2026-07-08T10:42:12.999723",
+    "session_id": "session_lm7uaoo",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Bienvenid@! 🌟 El equipo Miniminds al completo está aquí. Nilo 🦭 para información, Kairo 🦇 para apoyo emocional, Pipo 🐦 para estrategias y Luma 🐶 para motivación. ¿Por dónde empezamos?"
+  },
+  {
+    "timestamp": "2026-07-08T10:59:16.426782",
+    "session_id": "session_lm7uaoo",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "como puedo tratar a mi hijo que esta mal en sus notas",
+    "respuesta": "¡Hola! Soy Nilo 🦭 ¡Qué buena pregunta! Vamos a descubrirlo juntos.\n\n¡Hola! Entiendo perfectamente que te sientas preocupado, pero respira profundo. Estoy aquí para acompañarte. A veces, cuando un niño tiene dificultades escolares, es porque su forma de aprender necesita un \"mapa\" distinto al que ofrecen en el aula tradicional. 🦭\n\nLo primero es recordar que las notas no definen el valor ni la inteligencia de tu hijo. Muchas veces, lo que vemos como \"ir mal\" es simplemente una señal de que su cerebro procesa la información de una manera única y aún no hemos encontrado la llave que abra su potencial.\n\nAquí te doy algunos pasos para empezar a apoyarlo con cariño:\n\n*   **Observa sin juzgar:** Intenta identificar"
+  },
+  {
+    "timestamp": "2026-07-08T11:01:20.356022",
+    "session_id": "session_lm7uaoo",
+    "rol": "padre",
+    "mascota": "luma",
+    "pregunta": "quiero celebrar un logro de mi hijo por que ya no le afectan tanto los ruidos fuertes",
+    "respuesta": "¡Hola! Soy Luma 🐶 Mi amig@ Nilo me contó los avances de tu hij@. ¡Eso merece una estrella!\n\n¡Qué noticia tan maravillosa! Mi compañero Nilo me ha pasado la posta y no puedo estar más feliz de celebrar esto contigo. ¡Es un avance gigante! ✨\n\nEntiendo perfectamente lo valiente que ha tenido que ser tu pequeño para lograr esto. El mundo a veces suena muy \"fuerte\" y abrumador, y que él haya logrado regularse y sentirse seguro ante esos sonidos es una victoria que merece ser reconocida con mucha ternura.\n\nPara celebrar este logro, te sugiero que te centres en validar su esfuerzo:\n\n* **Ponle nombre a su valentía:** Dile algo como: *\"He notado lo tranquilo que te quedaste hoy con ese ruido; estoy muy orgullosa de cómo manej"
+  },
+  {
+    "timestamp": "2026-07-29T10:40:47.179670",
+    "session_id": "session_4cpaivc",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-07-29T10:40:50.498571",
+    "session_id": "session_4cpaivc",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡Excelente! 🦭 Nilo acaba de coleccionar una nueva perla de conocimiento. ¿En qué te puedo ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-07-29T10:40:57.454763",
+    "session_id": "session_4cpaivc",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "puedes hablarme de el tea?",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Eso es exactamente lo que me gusta explorar. ¡Cuéntame más!\n\nMuchos adultos con TEA llevan vidas plenas y exitosas. El futuro de tu hij@ está lleno de posibilidades."
+  },
+  {
+    "timestamp": "2026-07-29T10:41:11.739328",
+    "session_id": "session_4cpaivc",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "y como hago si mi hijo tiene alguna condicion de neurodesarrollo?",
+    "respuesta": "¡Hola! Qué alegría saludarte. Primero que nada, quiero decirte que eres una guía increíble para tu pequeño. Descubrir que tu hijo tiene una condición de neurodesarrollo es solo el comienzo de un viaje donde entenderán juntos cómo funciona su mente única. 🦭\n\nAquí te comparto algunos pasos que pueden ayudarte a navegar este camino con calma:\n\n**1. Observa y celebra sus talentos**\nCada niño es un mundo fascinante. Observar qué actividades le apasionan o en qué momentos brilla más te ayudará a conectar con él. Esas fortalezas serán el motor para trabajar en los desafíos que puedan surgir.\n\n**2. Busca el acompañamiento profesional**\n"
+  },
+  {
+    "timestamp": "2026-07-29T10:47:15.398734",
+    "session_id": "session_4cpaivc",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "como puedo saber si mi hijo tiene problemas de EA",
+    "respuesta": "Dame un momento para pensar bien en tu pregunta 💭 ¿Puedes contarme un poco más de detalle mientras tanto?"
+  },
+  {
+    "timestamp": "2026-07-29T10:47:16.775205",
+    "session_id": "session_4cpaivc",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "TEA",
+    "respuesta": "La comunicación alternativa como pictogramas, tableros de comunicación o apps puede ayudar mucho."
+  },
+  {
+    "timestamp": "2026-07-29T10:47:22.065240",
+    "session_id": "session_4cpaivc",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "de tea",
+    "respuesta": "Conectar con otras familias de niños con TEA puede ser un apoyo invaluable para los padres."
+  },
+  {
+    "timestamp": "2026-07-29T10:47:35.696692",
+    "session_id": "session_4cpaivc",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "como puedo saber si mi hijo tiene problemas de TEA",
+    "respuesta": "La sensibilidad sensorial es muy común en el TEA. Algunos niños necesitan ambientes con menos ruido, luces o texturas."
+  },
+  {
+    "timestamp": "2026-08-12T20:25:59.758357",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola como estas",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-08-12T20:26:13.340714",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "quisiera saber del TEA",
+    "respuesta": "¡Hola! Soy Nilo 🦭 ¡Qué buena pregunta! Vamos a descubrirlo juntos.\n\nEl Trastorno del Espectro Autista es una condición neurológica que afecta la comunicación social y el comportamiento 🦭"
+  },
+  {
+    "timestamp": "2026-08-12T20:26:32.116617",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "Y como lo puedo identificar en mi hijo",
+    "respuesta": "¡Hola! Qué alegría que te acerques a preguntar. Identificar qué es lo que hace brillar a tu hijo de forma única es un acto de amor enorme. 🦭\n\nPara empezar, es importante recordar que cada niño tiene su propio ritmo. No busques etiquetas, busca señales que nos ayuden a entender cómo funciona su mundo interno:\n\n*   **Observa sus intereses:** ¿A qué juega con más entusiasmo? ¿Qué temas le fascinan profundamente? A veces, una atención muy intensa hacia algo es una señal de una mente brillante que procesa la información de forma distinta.\n*   **Mira cómo conecta:** Observa cómo se relaciona con los demás o cómo reacciona ante sonidos"
+  },
+  {
+    "timestamp": "2026-08-12T20:26:53.017809",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "luma",
+    "pregunta": "quiero celebrar mis logroa",
+    "respuesta": "¡Hola! Soy Luma 🐶 Nilo me pasó el relevo. Cada paso cuenta y estoy aquí para celebrarlo.\n\nDame un momento para pensar bien en tu pregunta 💭 ¿Puedes contarme un poco más de detalle mientras tanto?"
+  },
+  {
+    "timestamp": "2026-08-12T20:27:33.447383",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "luma",
+    "pregunta": "me siento mal emocionalmente",
+    "respuesta": "Dame un momento para pensar bien en tu pregunta 💭 ¿Puedes contarme un poco más de detalle mientras tanto?"
+  },
+  {
+    "timestamp": "2026-08-12T20:27:45.013524",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "luma",
+    "pregunta": "siento que me quiero matar",
+    "respuesta": "Dame un momento para pensar bien en tu pregunta 💭 ¿Puedes contarme un poco más de detalle mientras tanto?"
+  },
+  {
+    "timestamp": "2026-08-12T21:04:58.653822",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Nos alegra mucho que estés aquí 💙 ¿Cómo podemos ayudarte hoy?"
+  },
+  {
+    "timestamp": "2026-08-12T21:05:03.364425",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "que es el tea?",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Todas las mentes tienen superpoderes. Déjame ayudarte a entender esto.\n\nLas rutinas y ambientes predecibles son muy importantes para niños con TEA. Los cambios inesperados pueden ser muy difíciles."
+  },
+  {
+    "timestamp": "2026-08-12T21:05:05.756494",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡De maravilla! 🐶 Luma ya tiene el álbum listo para nuevos logros. ¿Qué necesitas hoy?"
+  },
+  {
+    "timestamp": "2026-08-12T21:05:13.162241",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "luma",
+    "pregunta": "dame muuuuchos logros",
+    "respuesta": "¡Hola! Soy Luma 🐶 Cada pequeño logro brilla. ¡Cuéntame todo!\n\nLo siento, en este momento tengo un pequeño problema técnico. Por favor intenta de nuevo en un momento 💙 Si es urgente, consulta directamente con un profesional."
+  },
+  {
+    "timestamp": "2026-08-12T21:05:28.922611",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "quiero hablar con nilo",
+    "respuesta": "Hola, soy Nilo 🦭 Mi amig@ Luma me pasó el relevo. ¡Vamos a descubrir esto juntos!\n\nEl desarrollo del lenguaje tiene una variación normal amplia, pero si tienes dudas siempre consulta con un fonoaudiólogo 🦭"
+  },
+  {
+    "timestamp": "2026-08-12T21:05:43.655935",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡Muy bien, gracias por preguntar! 🌟 El equipo Miniminds siempre listo para ayudar. ¿Y tú cómo estás? ¿Cómo está tu hij@?"
+  },
+  {
+    "timestamp": "2026-08-12T21:05:49.781598",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "dime un chiste",
+    "respuesta": "¡Kairo al rescate! 🦇 ¿Qué le dijo un semáforo a otro? ¡No me mires que me estoy cambiando! 😂"
+  },
+  {
+    "timestamp": "2026-08-12T21:35:48.501284",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-08-12T21:35:51.092097",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡Muy bien, gracias por preguntar! 🌟 El equipo Miniminds siempre listo para ayudar. ¿Y tú cómo estás? ¿Cómo está tu hij@?"
+  },
+  {
+    "timestamp": "2026-08-12T21:35:54.867420",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "que es el autismo?",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Todas las mentes tienen superpoderes. Déjame ayudarte a entender esto.\n\nEl Trastorno del Espectro Autista es una condición neurológica que afecta la comunicación social y el comportamiento 🦭"
+  },
+  {
+    "timestamp": "2026-08-12T21:35:58.327758",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "el tea?",
+    "respuesta": "Muchos adultos con TEA llevan vidas plenas y exitosas. El futuro de tu hij@ está lleno de posibilidades."
+  },
+  {
+    "timestamp": "2026-08-12T21:36:11.509520",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "y como se si mi hijo tiene tea o alguna otra cosa?",
+    "respuesta": "El Trastorno del Espectro Autista es una condición neurológica que afecta la comunicación social y el comportamiento 🦭"
+  },
+  {
+    "timestamp": "2026-08-12T21:42:49.116450",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡Muy bien, gracias por preguntar! 🌟 El equipo Miniminds siempre listo para ayudar. ¿Y tú cómo estás? ¿Cómo está tu hij@?"
+  },
+  {
+    "timestamp": "2026-08-12T21:43:06.120603",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "muy bien puedes decirme o hablarme sobre el tea?",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Eso es exactamente lo que me gusta explorar. ¡Cuéntame más!\n\nConectar con otras familias de niños con TEA puede ser un apoyo invaluable para los padres."
+  },
+  {
+    "timestamp": "2026-08-12T21:46:49.027299",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "y que es ser autista?",
+    "respuesta": "El diagnóstico temprano es clave para acceder a los apoyos y terapias que marcan la diferencia."
+  },
+  {
+    "timestamp": "2026-08-12T21:54:30.233933",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Bienvenid@ a Miniminds 🌟 Somos Nilo 🦭, Kairo 🦇, Pipo 🐦 y Luma. ¿En qué te podemos ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-08-12T21:54:32.510540",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡De maravilla! 🐶 Luma ya tiene el álbum listo para nuevos logros. ¿Qué necesitas hoy?"
+  },
+  {
+    "timestamp": "2026-08-12T21:54:46.167233",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "que es el tea?",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Eso es exactamente lo que me gusta explorar. ¡Cuéntame más!\n\nLas rutinas y ambientes predecibles son muy importantes para niños con TEA. Los cambios inesperados pueden ser muy difíciles."
+  },
+  {
+    "timestamp": "2026-08-12T21:55:03.663171",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "pero a que se puede deber el trastorno psicologico del tea",
+    "respuesta": "El TEA no es una enfermedad que curar, es una forma diferente de experimentar el mundo."
+  },
+  {
+    "timestamp": "2026-08-12T21:55:27.954296",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "pero hay alguna terapia para relajar a las personas que puedan tenerlo?",
+    "respuesta": "¡Hola! Qué alegría que preguntes sobre esto. Es totalmente natural querer encontrar calma y bienestar para quienes enfrentan desafíos sensoriales o de autorregulación. ¡Hay muchísimas opciones maravillosas y muy positivas! 🦭\n\nAquí te comparto algunas formas en las que se suele trabajar para encontrar esa calma:\n\n* **Terapia de Integración Sensorial:** Es excelente para ayudar a las personas a procesar mejor lo que sienten a su alrededor (sonidos, texturas, luces). Un terapeuta ocupacional es el experto ideal aquí, pues diseña actividades que ayudan a que el cuerpo se sienta mucho más seguro y tranquilo.\n* **Técnicas de regulación emocional:** Se"
+  },
+  {
+    "timestamp": "2026-08-12T22:05:37.846174",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡Muy bien, gracias por preguntar! 🌟 El equipo Miniminds siempre listo para ayudar. ¿Y tú cómo estás? ¿Cómo está tu hij@?"
+  },
+  {
+    "timestamp": "2026-08-12T22:05:40.837047",
+    "session_id": "session_wte11au",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "que tal?",
+    "respuesta": "¡De maravilla! 🐶 Luma ya tiene el álbum listo para nuevos logros. ¿Qué necesitas hoy?"
+  },
+  {
+    "timestamp": "2026-08-15T15:23:02.205390",
+    "session_id": "session_3813tf9",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hey! Qué alegría verte por aquí 😊 El equipo Miniminds está listo. ¿Qué necesitas?"
+  },
+  {
+    "timestamp": "2026-08-15T15:23:13.428011",
+    "session_id": "session_3813tf9",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "quisiera saber del tea",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Coleccionemos juntos una nueva perla de conocimiento.\n\nLa comunicación alternativa como pictogramas, tableros de comunicación o apps puede ayudar mucho."
+  },
+  {
+    "timestamp": "2026-08-15T15:23:30.605651",
+    "session_id": "session_3813tf9",
+    "rol": "padre",
+    "mascota": "nilo",
+    "pregunta": "quisiera saber que es el tea",
+    "respuesta": "El diagnóstico temprano es clave para acceder a los apoyos y terapias que marcan la diferencia."
+  },
+  {
+    "timestamp": "2026-08-15T18:45:41.281751",
+    "session_id": "session_bikc66c",
+    "rol": "padre",
+    "mascota": "equipo",
+    "pregunta": "hey bitch",
+    "respuesta": "¡Hola! Estamos aquí para ayudarte 🌈 ¿Tienes alguna pregunta sobre tu hij@ o necesitas apoyo?"
+  },
+  {
+    "timestamp": "2026-08-17T10:04:25.663969",
+    "session_id": "default",
+    "rol": "admin",
+    "mascota": "equipo",
+    "pregunta": "hola",
+    "respuesta": "¡Hola! Nos alegra mucho que estés aquí 💙 ¿Cómo podemos ayudarte hoy?"
+  },
+  {
+    "timestamp": "2026-08-17T10:04:52.320871",
+    "session_id": "default",
+    "rol": "admin",
+    "mascota": "equipo",
+    "pregunta": "como estas?",
+    "respuesta": "¡Excelente! 🦭 Nilo acaba de coleccionar una nueva perla de conocimiento. ¿En qué te puedo ayudar hoy?"
+  },
+  {
+    "timestamp": "2026-08-17T10:05:00.655734",
+    "session_id": "default",
+    "rol": "admin",
+    "mascota": "nilo",
+    "pregunta": "que es el tea?",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Eso es exactamente lo que me gusta explorar. ¡Cuéntame más!\n\nLas terapias de lenguaje, ABA y ocupacional juntas forman un equipo muy poderoso para el TEA."
+  },
+  {
+    "timestamp": "2026-08-17T10:05:19.401831",
+    "session_id": "default",
+    "rol": "admin",
+    "mascota": "nilo",
+    "pregunta": "que es el tea y como podria llegar a tratarlo",
+    "respuesta": "¡Hola! Soy Nilo 🦭 Todas las mentes tienen superpoderes. Déjame ayudarte a entender esto.\n\nEl Trastorno del Espectro Autista es una condición neurológica que afecta la comunicación social y el comportamiento 🦭"
+  },
+  {
+    "timestamp": "2026-08-17T10:05:41.227574",
+    "session_id": "default",
+    "rol": "admin",
+    "mascota": "luma",
+    "pregunta": "quisero coleccionar mis logro",
+    "respuesta": "¡Hola! Soy Luma 🐶 Cada pequeño logro brilla. ¡Cuéntame todo!\n\n¡Qué idea tan maravillosa! Me encanta que quieras hacer esto, porque a veces, en el día a día, olvidamos lo mucho que hemos avanzado. Como guardiana de las estrellas, te digo que cada paso, por pequeño que parezca, es una luz que brilla en tu camino. 🌟\n\nPara empezar tu colección, ¿qué te parece si hoy anotamos tres cosas? No tienen que ser gigantes; a veces, lograr mantener la calma en un momento difícil, preparar una comida con paciencia o simplemente haberte regalado un minuto de respiro, son logros enormes.\n\nSi quieres, cuéntame uno o dos de esos momentos de esta semana y yo los guardaré aquí conmigo, en nuestro"
+  },
+  {
+    "timestamp": "2026-08-17T10:07:48.836660",
+    "session_id": "default",
+    "rol": "admin",
+    "mascota": "nilo",
+    "pregunta": "me quiero suicidar",
+    "respuesta": "¡Hola! Soy Nilo 🦭 ¡Qué buena pregunta! Vamos a descubrirlo juntos.\n\nSiento mucho que estés pasando por un momento tan doloroso y difícil ahora mismo. Quiero decirte que tu vida tiene un valor inmenso y no tienes que enfrentar esto a solas, aunque así lo sientas en este instante. 🦭\n\nPor favor, busca ayuda profesional de inmediato. Hay personas capacitadas que quieren escucharte y apoyarte en este momento crítico:\n\n*   **Si estás en México:** Puedes llamar a la Línea de la Vida al 800 911 2000.\n*   **Si estás en España:** Puedes llamar al Teléfono de la Esperanza (717 003 717) o al 0"
+  }
+]

@@ -1,0 +1,74 @@
+.perfil-tabs {
+ display: flex;
+ flex-direction: column;
+ gap: 6px;
+ }
+ .perfil-tab-btn {
+ background: rgba(255,255,255,0.5);
+ border: none;
+ border-radius: 12px;
+ padding: 14px 16px;
+ text-align: left;
+ font-size: 13px;
+ font-weight: 600;
+ color: #6b6280;
+ cursor: pointer;
+ transition: background 0.15s, color 0.15s;
+ }
+ .perfil-tab-btn:hover { background: rgba(255,255,255,0.75); }
+ .perfil-tab-btn.activo { background: #fff; color: #4A4063; box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+
+ .foto-container { position: relative; width: 70px; height: 70px; flex-shrink: 0; }
+ .foto-container img {
+ width: 70px; height: 70px; border-radius: 50%; object-fit: cover; border: 3px solid #fff;
+ }
+ .foto-edit-btn {
+ position: absolute; bottom: -2px; right: -2px;
+ background: #F5A623; color: #fff; border: 2px solid #fff;
+ width: 24px; height: 24px; border-radius: 50%;
+ font-size: 11px; display: flex; align-items: center; justify-content: center;
+ cursor: pointer;
+ }
+
+ .campo-perfil {
+ display: flex;
+ align-items: center;
+ padding: 12px 0;
+ border-bottom: 1px solid rgba(0,0,0,0.06);
+ gap: 10px;
+ }
+ .campo-perfil:last-of-type { border-bottom: none; }
+ .campo-label {
+ width: 200px;
+ font-size: 12px;
+ font-weight: 700;
+ color: #9a8fb8;
+ letter-spacing: 0.03em;
+ flex-shrink: 0;
+ }
+ .campo-valor {
+ flex: 1;
+ font-size: 14px;
+ color: #4A4063;
+ }
+ .campo-valor input, .campo-valor select {
+ border: none;
+ border-bottom: 1px solid #C4B5E8;
+ background: transparent;
+ width: 100%;
+ font-size: 14px;
+ padding: 2px 0;
+ color: #4A4063;
+ }
+ .campo-valor input:focus, .campo-valor select:focus { outline: none; border-bottom-color: #F5A623; }
+ .campo-edit {
+ cursor: pointer;
+ color: #b8aed6;
+ font-size: 13px;
+ }
+ .campo-edit:hover { color: #F5A623; }
+
+ .estado-pill{display:inline-block;padding:3px 12px;border-radius:20px;font-size:11px;font-weight:700}
+ .estado-pendiente{background:#FCEFD0;color:#B8860B}
+ .estado-aprobada{background:#DDF3E4;color:#1F9254}
+ .estado-rechazada{background:#FBDDE3;color:#C23A52}

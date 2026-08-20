@@ -1,0 +1,19 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+<style>
+.line{stroke:currentColor;stroke-width:3;stroke-linecap:round;}
+.node{fill:currentColor;}
+</style>
+
+<line class="line" x1="30" y1="40" x2="60" y2="60"></line>
+<line class="line" x1="60" y1="60" x2="90" y2="30"></line>
+<line class="line" x1="60" y1="60" x2="90" y2="90"></line>
+<line class="line" x1="60" y1="60" x2="35" y2="95"></line>
+<line class="line" x1="90" y1="30" x2="105" y2="15"></line>
+
+<circle class="node" cx="30" cy="40" r="6"></circle>
+<circle class="node" cx="60" cy="60" r="8"></circle>
+<circle class="node" cx="90" cy="30" r="6"></circle>
+<circle class="node" cx="90" cy="90" r="6"></circle>
+<circle class="node" cx="35" cy="95" r="5"></circle>
+<circle class="node" cx="105" cy="15" r="4"></circle>
+</svg>
