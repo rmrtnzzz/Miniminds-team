@@ -4,12 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Log;
+=======
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
 
 class ChatController extends Controller
 {
     public function enviar(Request $request)
     {
+<<<<<<< HEAD
         $mensaje = trim((string) $request->input('mensaje'));
 
         if ($mensaje === '') {
@@ -53,10 +57,27 @@ class ChatController extends Controller
                 'mascota'   => $mascotaActual ?? 'nilo',
             ], 200);
         }
+=======
+        $mensaje = $request->input('mensaje');
+        $rol = auth()->user()->role ?? 'paciente';
+
+        $respuesta = Http::post('http://127.0.0.1:5000/chat', [
+            'mensaje' => $mensaje,
+            'rol' => $rol
+        ]);
+
+        return response()->json($respuesta->json());
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
     }
 
     public function index()
     {
+<<<<<<< HEAD
         return view('chat.chat');
     }
 }
+=======
+        return view('chat.index');
+    }
+}
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee

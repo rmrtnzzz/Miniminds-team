@@ -10,6 +10,7 @@
         "production": "mix --production"
     },
     "devDependencies": {
+<<<<<<< HEAD
         "@tailwindcss/forms": "^0.5.2",
         "alpinejs": "^3.4.2",
         "autoprefixer": "^10.4.2",
@@ -19,6 +20,13 @@
         "postcss": "^8.4.6",
         "tailwindcss": "^3.1.0",
         "webpack": "^5.108.3",
+=======
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "webpack": "^5.107.2",
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
         "webpack-cli": "^4.10.0"
     },
     "dependencies": {

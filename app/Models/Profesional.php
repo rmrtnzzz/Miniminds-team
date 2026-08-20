@@ -8,7 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Profesional extends Model
 {
     use HasFactory;
+<<<<<<< HEAD
     protected $table = 'profesionales';
+=======
+
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
     protected $fillable = [
         'user_id',
         'nombre',
@@ -24,6 +28,7 @@ class Profesional extends Model
     {
         return $this->belongsTo(User::class);
     }
+<<<<<<< HEAD
 
     public function citas()
     {
@@ -39,4 +44,6 @@ class Profesional extends Model
     {
         return $this->hasMany(SolicitudPaciente::class);
     }
+=======
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
 }

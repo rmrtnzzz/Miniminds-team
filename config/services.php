@@ -2,7 +2,21 @@
 
 return [
 
+<<<<<<< HEAD
     
+=======
+    /*
+    |--------------------------------------------------------------------------
+    | Third Party Services
+    |--------------------------------------------------------------------------
+    |
+    | This file is for storing the credentials for third party services such
+    | as Mailgun, Postmark, AWS and more. This file provides the de facto
+    | location for this type of information, allowing packages to have
+    | a conventional file to locate the various service credentials.
+    |
+    */
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),

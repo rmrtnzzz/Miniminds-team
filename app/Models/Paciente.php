@@ -11,7 +11,10 @@ class Paciente extends Model
 
     protected $fillable = [
         'user_id',
+<<<<<<< HEAD
         'profesional_id',
+=======
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
         'nombre',
         'apellido',
         'fecha_nacimiento',
@@ -24,6 +27,7 @@ class Paciente extends Model
     {
         return $this->belongsTo(User::class);
     }
+<<<<<<< HEAD
 
     public function profesional()
     {
@@ -39,4 +43,6 @@ class Paciente extends Model
     {
         return $this->hasMany(Asignacion::class);
     }
+=======
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
 }

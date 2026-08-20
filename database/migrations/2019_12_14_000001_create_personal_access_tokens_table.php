@@ -6,7 +6,15 @@ use Illuminate\Support\Facades\Schema;
 
 class CreatePersonalAccessTokensTable extends Migration
 {
+<<<<<<< HEAD
     
+=======
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
     public function up()
     {
         Schema::create('personal_access_tokens', function (Blueprint $table) {
@@ -20,7 +28,15 @@ class CreatePersonalAccessTokensTable extends Migration
         });
     }
 
+<<<<<<< HEAD
     
+=======
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
     public function down()
     {
         Schema::dropIfExists('personal_access_tokens');

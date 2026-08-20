@@ -6,7 +6,15 @@ use Illuminate\Support\Facades\Schema;
 
 class CreatePacientesTable extends Migration
 {
+<<<<<<< HEAD
     
+=======
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
     public function up()
 {
     Schema::create('pacientes', function (Blueprint $table) {

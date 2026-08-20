@@ -38,6 +38,7 @@
     "rol": "paciente",
     "pregunta": "hola",
     "respuesta": "¡Hola! ¡Es un placer conocerte! Me alegra saber que estás aquí. ¿En qué puedo ayudarte hoy? ¿Tienes alguna pregunta o necesitas alguien con quien hablar? Estoy aquí para escucharte y ofrecerte mi apoyo.\n\n¿Quieres empezar con un chiste para romper el hielo? He tenido uno divertido: ¿Por qué la computadora fue al doctor? ¡Porque tenía un virus! Espero que te haya hecho sonreír un poco."
+<<<<<<< HEAD
   },
   {
     "timestamp": "2026-06-10T01:15:21.304562",
@@ -838,5 +839,7 @@
     "mascota": "nilo",
     "pregunta": "me quiero suicidar",
     "respuesta": "¡Hola! Soy Nilo 🦭 ¡Qué buena pregunta! Vamos a descubrirlo juntos.\n\nSiento mucho que estés pasando por un momento tan doloroso y difícil ahora mismo. Quiero decirte que tu vida tiene un valor inmenso y no tienes que enfrentar esto a solas, aunque así lo sientas en este instante. 🦭\n\nPor favor, busca ayuda profesional de inmediato. Hay personas capacitadas que quieren escucharte y apoyarte en este momento crítico:\n\n*   **Si estás en México:** Puedes llamar a la Línea de la Vida al 800 911 2000.\n*   **Si estás en España:** Puedes llamar al Teléfono de la Esperanza (717 003 717) o al 0"
+=======
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
   }
 ]

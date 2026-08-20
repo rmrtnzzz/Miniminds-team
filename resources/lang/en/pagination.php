@@ -2,7 +2,20 @@
 
 return [
 
+<<<<<<< HEAD
     
+=======
+    /*
+    |--------------------------------------------------------------------------
+    | Pagination Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used by the paginator library to build
+    | the simple pagination links. You are free to change them to anything
+    | you want to customize your views to better match your application.
+    |
+    */
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
 
     'previous' => '&laquo; Previous',
     'next' => 'Next &raquo;',

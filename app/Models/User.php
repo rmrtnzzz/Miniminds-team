@@ -12,6 +12,7 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
+<<<<<<< HEAD
     
     protected $fillable = [
         'name',
@@ -38,11 +39,30 @@ class User extends Authenticatable
     public const ROLE_ADMIN = 'admin';
 
     
+=======
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+    ];
+
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var array<int, string>
+     */
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
     protected $hidden = [
         'password',
         'remember_token',
     ];
 
+<<<<<<< HEAD
     
     protected $casts = [
         'email_verified_at' => 'datetime',
@@ -136,4 +156,14 @@ class User extends Authenticatable
     {
         return route($this->panelRouteName());
     }
+=======
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+    ];
+>>>>>>> 145eb020648020c9347deba19cb5c971d942ebee
 }
